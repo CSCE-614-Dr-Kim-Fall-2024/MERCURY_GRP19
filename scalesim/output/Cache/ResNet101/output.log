@@ -1,0 +1,2612 @@
+====================================================
+******************* SCALE SIM **********************
+====================================================
+Array Size: 	12x14
+SRAM IFMAP (kB): 	36
+SRAM Filter (kB): 	36
+SRAM OFMAP (kB): 	36
+Dataflow: 	Weight Stationary
+CSV file path: 	topologies/mercury/ResNet101.csv
+Working in ESTIMATE BANDWIDTH mode.
+====================================================
+Cache Mode is enabled. 
+Initializing ...
+results_cached/out_resnet//hitmap-001.csv
+	Layer: 1 	 Number of Hits: 0
+results_cached/out_resnet//hitmap-002.csv
+	Layer: 2 	 Number of Hits: 30
+results_cached/out_resnet//hitmap-003.csv
+	Layer: 3 	 Number of Hits: 27
+results_cached/out_resnet//hitmap-004.csv
+	Layer: 4 	 Number of Hits: 15
+results_cached/out_resnet//hitmap-005.csv
+	Layer: 5 	 Number of Hits: 19
+results_cached/out_resnet//hitmap-006.csv
+	Layer: 6 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-007.csv
+	Layer: 7 	 Number of Hits: 6
+results_cached/out_resnet//hitmap-008.csv
+	Layer: 8 	 Number of Hits: 3
+results_cached/out_resnet//hitmap-009.csv
+	Layer: 9 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-010.csv
+	Layer: 10 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-011.csv
+	Layer: 11 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-012.csv
+	Layer: 12 	 Number of Hits: 8
+results_cached/out_resnet//hitmap-013.csv
+	Layer: 13 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-014.csv
+	Layer: 14 	 Number of Hits: 2
+results_cached/out_resnet//hitmap-015.csv
+	Layer: 15 	 Number of Hits: 14
+results_cached/out_resnet//hitmap-016.csv
+	Layer: 16 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-017.csv
+	Layer: 17 	 Number of Hits: 13
+results_cached/out_resnet//hitmap-018.csv
+	Layer: 18 	 Number of Hits: 16
+results_cached/out_resnet//hitmap-019.csv
+	Layer: 19 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-020.csv
+	Layer: 20 	 Number of Hits: 13
+results_cached/out_resnet//hitmap-021.csv
+	Layer: 21 	 Number of Hits: 14
+results_cached/out_resnet//hitmap-022.csv
+	Layer: 22 	 Number of Hits: 8
+results_cached/out_resnet//hitmap-023.csv
+	Layer: 23 	 Number of Hits: 8
+results_cached/out_resnet//hitmap-024.csv
+	Layer: 24 	 Number of Hits: 8
+results_cached/out_resnet//hitmap-025.csv
+	Layer: 25 	 Number of Hits: 13
+results_cached/out_resnet//hitmap-026.csv
+	Layer: 26 	 Number of Hits: 9
+results_cached/out_resnet//hitmap-027.csv
+	Layer: 27 	 Number of Hits: 13
+results_cached/out_resnet//hitmap-028.csv
+	Layer: 28 	 Number of Hits: 12
+results_cached/out_resnet//hitmap-029.csv
+	Layer: 29 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-030.csv
+	Layer: 30 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-031.csv
+	Layer: 31 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-032.csv
+	Layer: 32 	 Number of Hits: 12
+results_cached/out_resnet//hitmap-033.csv
+	Layer: 33 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-034.csv
+	Layer: 34 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-035.csv
+	Layer: 35 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-036.csv
+	Layer: 36 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-037.csv
+	Layer: 37 	 Number of Hits: 7
+results_cached/out_resnet//hitmap-038.csv
+	Layer: 38 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-039.csv
+	Layer: 39 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-040.csv
+	Layer: 40 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-041.csv
+	Layer: 41 	 Number of Hits: 12
+results_cached/out_resnet//hitmap-042.csv
+	Layer: 42 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-043.csv
+	Layer: 43 	 Number of Hits: 13
+results_cached/out_resnet//hitmap-044.csv
+	Layer: 44 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-045.csv
+	Layer: 45 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-046.csv
+	Layer: 46 	 Number of Hits: 12
+results_cached/out_resnet//hitmap-047.csv
+	Layer: 47 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-048.csv
+	Layer: 48 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-049.csv
+	Layer: 49 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-050.csv
+	Layer: 50 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-051.csv
+	Layer: 51 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-052.csv
+	Layer: 52 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-053.csv
+	Layer: 53 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-054.csv
+	Layer: 54 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-055.csv
+	Layer: 55 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-056.csv
+	Layer: 56 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-057.csv
+	Layer: 57 	 Number of Hits: 9
+results_cached/out_resnet//hitmap-058.csv
+	Layer: 58 	 Number of Hits: 8
+results_cached/out_resnet//hitmap-059.csv
+	Layer: 59 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-060.csv
+	Layer: 60 	 Number of Hits: 9
+results_cached/out_resnet//hitmap-061.csv
+	Layer: 61 	 Number of Hits: 8
+results_cached/out_resnet//hitmap-062.csv
+	Layer: 62 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-063.csv
+	Layer: 63 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-064.csv
+	Layer: 64 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-065.csv
+	Layer: 65 	 Number of Hits: 12
+results_cached/out_resnet//hitmap-066.csv
+	Layer: 66 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-067.csv
+	Layer: 67 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-068.csv
+	Layer: 68 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-069.csv
+	Layer: 69 	 Number of Hits: 12
+results_cached/out_resnet//hitmap-070.csv
+	Layer: 70 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-071.csv
+	Layer: 71 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-072.csv
+	Layer: 72 	 Number of Hits: 9
+results_cached/out_resnet//hitmap-073.csv
+	Layer: 73 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-074.csv
+	Layer: 74 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-075.csv
+	Layer: 75 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-076.csv
+	Layer: 76 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-077.csv
+	Layer: 77 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-078.csv
+	Layer: 78 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-079.csv
+	Layer: 79 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-080.csv
+	Layer: 80 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-081.csv
+	Layer: 81 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-082.csv
+	Layer: 82 	 Number of Hits: 9
+results_cached/out_resnet//hitmap-083.csv
+	Layer: 83 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-084.csv
+	Layer: 84 	 Number of Hits: 9
+results_cached/out_resnet//hitmap-085.csv
+	Layer: 85 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-086.csv
+	Layer: 86 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-087.csv
+	Layer: 87 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-088.csv
+	Layer: 88 	 Number of Hits: 9
+results_cached/out_resnet//hitmap-089.csv
+	Layer: 89 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-090.csv
+	Layer: 90 	 Number of Hits: 9
+results_cached/out_resnet//hitmap-091.csv
+	Layer: 91 	 Number of Hits: 9
+results_cached/out_resnet//hitmap-092.csv
+	Layer: 92 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-093.csv
+	Layer: 93 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-094.csv
+	Layer: 94 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-095.csv
+	Layer: 95 	 Number of Hits: 11
+results_cached/out_resnet//hitmap-096.csv
+	Layer: 96 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-097.csv
+	Layer: 97 	 Number of Hits: 10
+results_cached/out_resnet//hitmap-098.csv
+	Layer: 98 	 Number of Hits: 7
+results_cached/out_resnet//hitmap-099.csv
+	Layer: 99 	 Number of Hits: 6
+
+Running Layer 0
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  12100
+Shape of Row Indices:  (12100,)
+Shape of Col Indices:  (147,)
+Shape of i and j:  (12100, 147)
+Shape of ifmap_addr_matrix:  (12100, 147)
+Shape of ifmap_op_matrix:  (12100, 147)
+Shape of filter_op_mat:    (147, 64)
+Shape of ofmap_op_mat:     (12100, 64)
+Demand Matrix Calculation: fr (row_fold) ->  13
+Demand Matrix Calculation: fc (col_fold) ->  5
+Shape of ifmap_demand_matrix:  (788840, 12)
+ifmap_demand_mat (788840, 12)
+filter_demand_mat (788840, 14)
+ofmap_demand_mat (788840, 14)
+Compute cycles: 788839
+Stall cycles: 0
+Overall utilization: 85.90%
+Mapping efficiency: 86.15%
+Average IFMAP DRAM BW: 7.390 words/cycle
+Average Filter DRAM BW: 9.831 words/cycle
+Average OFMAP DRAM BW: 12.781 words/cycle
+
+Running Layer 1
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  1456
+Shape of Row Indices:  (1456,)
+Shape of Col Indices:  (64,)
+Shape of i and j:  (1456, 64)
+Shape of ifmap_addr_matrix:  (1456, 64)
+Shape of ifmap_op_matrix:  (1456, 64)
+Shape of filter_op_mat:    (64, 64)
+Shape of ofmap_op_mat:     (1456, 64)
+Demand Matrix Calculation: fr (row_fold) ->  6
+Demand Matrix Calculation: fc (col_fold) ->  5
+Shape of ifmap_demand_matrix:  (44760, 12)
+ifmap_demand_mat (44760, 12)
+filter_demand_mat (44760, 14)
+ofmap_demand_mat (44760, 14)
+Compute cycles: 44759
+Stall cycles: 0
+Overall utilization: 79.31%
+Mapping efficiency: 81.27%
+Average IFMAP DRAM BW: 10.337 words/cycle
+Average Filter DRAM BW: 9.267 words/cycle
+Average OFMAP DRAM BW: 12.750 words/cycle
+
+Running Layer 2
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  1458
+Shape of Row Indices:  (1458,)
+Shape of Col Indices:  (576,)
+Shape of i and j:  (1458, 576)
+Shape of ifmap_addr_matrix:  (1458, 576)
+Shape of ifmap_op_matrix:  (1458, 576)
+Shape of filter_op_mat:    (576, 64)
+Shape of ofmap_op_mat:     (1458, 64)
+Demand Matrix Calculation: fr (row_fold) ->  48
+Demand Matrix Calculation: fc (col_fold) ->  5
+Shape of ifmap_demand_matrix:  (358560, 12)
+ifmap_demand_mat (358560, 12)
+filter_demand_mat (358560, 14)
+ofmap_demand_mat (358560, 14)
+Compute cycles: 358559
+Stall cycles: 0
+Overall utilization: 89.23%
+Mapping efficiency: 91.43%
+Average IFMAP DRAM BW: 11.662 words/cycle
+Average Filter DRAM BW: 0.103 words/cycle
+Average OFMAP DRAM BW: 12.493 words/cycle
+
+Running Layer 3
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  2296
+Shape of Row Indices:  (2296,)
+Shape of Col Indices:  (64,)
+Shape of i and j:  (2296, 64)
+Shape of ifmap_addr_matrix:  (2296, 64)
+Shape of ifmap_op_matrix:  (2296, 64)
+Shape of filter_op_mat:    (64, 256)
+Shape of ofmap_op_mat:     (2296, 256)
+Demand Matrix Calculation: fr (row_fold) ->  6
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (265848, 12)
+ifmap_demand_mat (265848, 12)
+filter_demand_mat (265848, 14)
+ofmap_demand_mat (265848, 14)
+Compute cycles: 265847
+Stall cycles: 0
+Overall utilization: 84.23%
+Mapping efficiency: 85.55%
+Average IFMAP DRAM BW: 10.537 words/cycle
+Average Filter DRAM BW: 9.894 words/cycle
+Average OFMAP DRAM BW: 13.312 words/cycle
+
+Running Layer 4
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  2072
+Shape of Row Indices:  (2072,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (2072, 256)
+Shape of ifmap_addr_matrix:  (2072, 256)
+Shape of ifmap_op_matrix:  (2072, 256)
+Shape of filter_op_mat:    (256, 64)
+Shape of ofmap_op_mat:     (2072, 64)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  5
+Shape of ifmap_demand_matrix:  (231880, 12)
+ifmap_demand_mat (231880, 12)
+filter_demand_mat (231880, 14)
+ofmap_demand_mat (231880, 14)
+Compute cycles: 231879
+Stall cycles: 0
+Overall utilization: 87.14%
+Mapping efficiency: 88.66%
+Average IFMAP DRAM BW: 11.380 words/cycle
+Average Filter DRAM BW: 9.894 words/cycle
+Average OFMAP DRAM BW: 12.635 words/cycle
+
+Running Layer 5
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  2376
+Shape of Row Indices:  (2376,)
+Shape of Col Indices:  (576,)
+Shape of i and j:  (2376, 576)
+Shape of ifmap_addr_matrix:  (2376, 576)
+Shape of ifmap_op_matrix:  (2376, 576)
+Shape of filter_op_mat:    (576, 64)
+Shape of ofmap_op_mat:     (2376, 64)
+Demand Matrix Calculation: fr (row_fold) ->  48
+Demand Matrix Calculation: fc (col_fold) ->  5
+Shape of ifmap_demand_matrix:  (578880, 12)
+ifmap_demand_mat (578880, 12)
+filter_demand_mat (578880, 14)
+ofmap_demand_mat (578880, 14)
+Compute cycles: 578879
+Stall cycles: 0
+Overall utilization: 90.06%
+Mapping efficiency: 91.43%
+Average IFMAP DRAM BW: 11.812 words/cycle
+Average Filter DRAM BW: 0.064 words/cycle
+Average OFMAP DRAM BW: 12.610 words/cycle
+
+Running Layer 6
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  2800
+Shape of Row Indices:  (2800,)
+Shape of Col Indices:  (64,)
+Shape of i and j:  (2800, 64)
+Shape of ifmap_addr_matrix:  (2800, 64)
+Shape of ifmap_op_matrix:  (2800, 64)
+Shape of filter_op_mat:    (64, 256)
+Shape of ofmap_op_mat:     (2800, 256)
+Demand Matrix Calculation: fr (row_fold) ->  6
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (323304, 12)
+ifmap_demand_mat (323304, 12)
+filter_demand_mat (323304, 14)
+ofmap_demand_mat (323304, 14)
+Compute cycles: 323303
+Stall cycles: 0
+Overall utilization: 84.46%
+Mapping efficiency: 85.55%
+Average IFMAP DRAM BW: 10.479 words/cycle
+Average Filter DRAM BW: 9.894 words/cycle
+Average OFMAP DRAM BW: 13.341 words/cycle
+
+Running Layer 7
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  2968
+Shape of Row Indices:  (2968,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (2968, 256)
+Shape of ifmap_addr_matrix:  (2968, 256)
+Shape of ifmap_op_matrix:  (2968, 256)
+Shape of filter_op_mat:    (256, 64)
+Shape of ofmap_op_mat:     (2968, 64)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  5
+Shape of ifmap_demand_matrix:  (330440, 12)
+ifmap_demand_mat (330440, 12)
+filter_demand_mat (330440, 14)
+ofmap_demand_mat (330440, 14)
+Compute cycles: 330439
+Stall cycles: 0
+Overall utilization: 87.60%
+Mapping efficiency: 88.66%
+Average IFMAP DRAM BW: 11.509 words/cycle
+Average Filter DRAM BW: 9.894 words/cycle
+Average OFMAP DRAM BW: 12.662 words/cycle
+
+Running Layer 8
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  2322
+Shape of Row Indices:  (2322,)
+Shape of Col Indices:  (576,)
+Shape of i and j:  (2322, 576)
+Shape of ifmap_addr_matrix:  (2322, 576)
+Shape of ifmap_op_matrix:  (2322, 576)
+Shape of filter_op_mat:    (576, 64)
+Shape of ofmap_op_mat:     (2322, 64)
+Demand Matrix Calculation: fr (row_fold) ->  48
+Demand Matrix Calculation: fc (col_fold) ->  5
+Shape of ifmap_demand_matrix:  (565920, 12)
+ifmap_demand_mat (565920, 12)
+filter_demand_mat (565920, 14)
+ofmap_demand_mat (565920, 14)
+Compute cycles: 565919
+Stall cycles: 0
+Overall utilization: 90.03%
+Mapping efficiency: 91.43%
+Average IFMAP DRAM BW: 11.793 words/cycle
+Average Filter DRAM BW: 0.065 words/cycle
+Average OFMAP DRAM BW: 12.606 words/cycle
+
+Running Layer 9
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  2576
+Shape of Row Indices:  (2576,)
+Shape of Col Indices:  (64,)
+Shape of i and j:  (2576, 64)
+Shape of ifmap_addr_matrix:  (2576, 64)
+Shape of ifmap_op_matrix:  (2576, 64)
+Shape of filter_op_mat:    (64, 256)
+Shape of ofmap_op_mat:     (2576, 256)
+Demand Matrix Calculation: fr (row_fold) ->  6
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (297768, 12)
+ifmap_demand_mat (297768, 12)
+filter_demand_mat (297768, 14)
+ofmap_demand_mat (297768, 14)
+Compute cycles: 297767
+Stall cycles: 0
+Overall utilization: 84.37%
+Mapping efficiency: 85.55%
+Average IFMAP DRAM BW: 10.495 words/cycle
+Average Filter DRAM BW: 9.894 words/cycle
+Average OFMAP DRAM BW: 13.310 words/cycle
+
+Running Layer 10
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  667
+Shape of Row Indices:  (667,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (667, 256)
+Shape of ifmap_addr_matrix:  (667, 256)
+Shape of ifmap_op_matrix:  (667, 256)
+Shape of filter_op_mat:    (256, 128)
+Shape of ofmap_op_mat:     (667, 128)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  10
+Shape of ifmap_demand_matrix:  (154660, 12)
+ifmap_demand_mat (154660, 12)
+filter_demand_mat (154660, 14)
+ofmap_demand_mat (154660, 14)
+Compute cycles: 154659
+Stall cycles: 0
+Overall utilization: 84.12%
+Mapping efficiency: 88.66%
+Average IFMAP DRAM BW: 10.636 words/cycle
+Average Filter DRAM BW: 0.407 words/cycle
+Average OFMAP DRAM BW: 12.160 words/cycle
+
+Running Layer 11
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  468
+Shape of Row Indices:  (468,)
+Shape of Col Indices:  (1152,)
+Shape of i and j:  (468, 1152)
+Shape of ifmap_addr_matrix:  (468, 1152)
+Shape of ifmap_op_matrix:  (468, 1152)
+Shape of filter_op_mat:    (1152, 128)
+Shape of ofmap_op_mat:     (468, 128)
+Demand Matrix Calculation: fr (row_fold) ->  96
+Demand Matrix Calculation: fc (col_fold) ->  10
+Shape of ifmap_demand_matrix:  (483840, 12)
+ifmap_demand_mat (483840, 12)
+filter_demand_mat (483840, 14)
+ofmap_demand_mat (483840, 14)
+Compute cycles: 483839
+Stall cycles: 0
+Overall utilization: 84.90%
+Mapping efficiency: 91.43%
+Average IFMAP DRAM BW: 11.102 words/cycle
+Average Filter DRAM BW: 0.307 words/cycle
+Average OFMAP DRAM BW: 11.889 words/cycle
+
+Running Layer 12
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  476
+Shape of Row Indices:  (476,)
+Shape of Col Indices:  (128,)
+Shape of i and j:  (476, 128)
+Shape of ifmap_addr_matrix:  (476, 128)
+Shape of ifmap_op_matrix:  (476, 128)
+Shape of filter_op_mat:    (128, 512)
+Shape of ofmap_op_mat:     (476, 512)
+Demand Matrix Calculation: fr (row_fold) ->  11
+Demand Matrix Calculation: fc (col_fold) ->  37
+Shape of ifmap_demand_matrix:  (208384, 12)
+ifmap_demand_mat (208384, 12)
+filter_demand_mat (208384, 14)
+ofmap_demand_mat (208384, 14)
+Compute cycles: 208383
+Stall cycles: 0
+Overall utilization: 89.11%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 10.777 words/cycle
+Average Filter DRAM BW: 0.375 words/cycle
+Average OFMAP DRAM BW: 12.917 words/cycle
+
+Running Layer 13
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  728
+Shape of Row Indices:  (728,)
+Shape of Col Indices:  (512,)
+Shape of i and j:  (728, 512)
+Shape of ifmap_addr_matrix:  (728, 512)
+Shape of ifmap_op_matrix:  (728, 512)
+Shape of filter_op_mat:    (512, 128)
+Shape of ofmap_op_mat:     (728, 128)
+Demand Matrix Calculation: fr (row_fold) ->  43
+Demand Matrix Calculation: fc (col_fold) ->  10
+Shape of ifmap_demand_matrix:  (328520, 12)
+ifmap_demand_mat (328520, 12)
+filter_demand_mat (328520, 14)
+ofmap_demand_mat (328520, 14)
+Compute cycles: 328519
+Stall cycles: 0
+Overall utilization: 86.45%
+Mapping efficiency: 90.72%
+Average IFMAP DRAM BW: 11.323 words/cycle
+Average Filter DRAM BW: 0.258 words/cycle
+Average OFMAP DRAM BW: 12.230 words/cycle
+
+Running Layer 14
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  312
+Shape of Row Indices:  (312,)
+Shape of Col Indices:  (1152,)
+Shape of i and j:  (312, 1152)
+Shape of ifmap_addr_matrix:  (312, 1152)
+Shape of ifmap_op_matrix:  (312, 1152)
+Shape of filter_op_mat:    (1152, 128)
+Shape of ofmap_op_mat:     (312, 128)
+Demand Matrix Calculation: fr (row_fold) ->  96
+Demand Matrix Calculation: fc (col_fold) ->  10
+Shape of ifmap_demand_matrix:  (334080, 12)
+ifmap_demand_mat (334080, 12)
+filter_demand_mat (334080, 14)
+ofmap_demand_mat (334080, 14)
+Compute cycles: 334079
+Stall cycles: 0
+Overall utilization: 81.97%
+Mapping efficiency: 91.43%
+Average IFMAP DRAM BW: 10.718 words/cycle
+Average Filter DRAM BW: 0.444 words/cycle
+Average OFMAP DRAM BW: 11.482 words/cycle
+
+Running Layer 15
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  476
+Shape of Row Indices:  (476,)
+Shape of Col Indices:  (128,)
+Shape of i and j:  (476, 128)
+Shape of ifmap_addr_matrix:  (476, 128)
+Shape of ifmap_op_matrix:  (476, 128)
+Shape of filter_op_mat:    (128, 512)
+Shape of ofmap_op_mat:     (476, 512)
+Demand Matrix Calculation: fr (row_fold) ->  11
+Demand Matrix Calculation: fc (col_fold) ->  37
+Shape of ifmap_demand_matrix:  (208384, 12)
+ifmap_demand_mat (208384, 12)
+filter_demand_mat (208384, 14)
+ofmap_demand_mat (208384, 14)
+Compute cycles: 208383
+Stall cycles: 0
+Overall utilization: 89.11%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 10.777 words/cycle
+Average Filter DRAM BW: 0.375 words/cycle
+Average OFMAP DRAM BW: 12.917 words/cycle
+
+Running Layer 16
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  420
+Shape of Row Indices:  (420,)
+Shape of Col Indices:  (512,)
+Shape of i and j:  (420, 512)
+Shape of ifmap_addr_matrix:  (420, 512)
+Shape of ifmap_op_matrix:  (420, 512)
+Shape of filter_op_mat:    (512, 128)
+Shape of ofmap_op_mat:     (420, 128)
+Demand Matrix Calculation: fr (row_fold) ->  43
+Demand Matrix Calculation: fc (col_fold) ->  10
+Shape of ifmap_demand_matrix:  (196080, 12)
+ifmap_demand_mat (196080, 12)
+filter_demand_mat (196080, 14)
+ofmap_demand_mat (196080, 14)
+Compute cycles: 196079
+Stall cycles: 0
+Overall utilization: 83.56%
+Mapping efficiency: 90.72%
+Average IFMAP DRAM BW: 10.954 words/cycle
+Average Filter DRAM BW: 0.430 words/cycle
+Average OFMAP DRAM BW: 11.845 words/cycle
+
+Running Layer 17
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  260
+Shape of Row Indices:  (260,)
+Shape of Col Indices:  (1152,)
+Shape of i and j:  (260, 1152)
+Shape of ifmap_addr_matrix:  (260, 1152)
+Shape of ifmap_op_matrix:  (260, 1152)
+Shape of filter_op_mat:    (1152, 128)
+Shape of ofmap_op_mat:     (260, 128)
+Demand Matrix Calculation: fr (row_fold) ->  96
+Demand Matrix Calculation: fc (col_fold) ->  10
+Shape of ifmap_demand_matrix:  (284160, 12)
+ifmap_demand_mat (284160, 12)
+filter_demand_mat (284160, 14)
+ofmap_demand_mat (284160, 14)
+Compute cycles: 284159
+Stall cycles: 0
+Overall utilization: 80.31%
+Mapping efficiency: 91.43%
+Average IFMAP DRAM BW: 10.523 words/cycle
+Average Filter DRAM BW: 0.522 words/cycle
+Average OFMAP DRAM BW: 11.287 words/cycle
+
+Running Layer 18
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  504
+Shape of Row Indices:  (504,)
+Shape of Col Indices:  (128,)
+Shape of i and j:  (504, 128)
+Shape of ifmap_addr_matrix:  (504, 128)
+Shape of ifmap_op_matrix:  (504, 128)
+Shape of filter_op_mat:    (128, 512)
+Shape of ofmap_op_mat:     (504, 512)
+Demand Matrix Calculation: fr (row_fold) ->  11
+Demand Matrix Calculation: fc (col_fold) ->  37
+Shape of ifmap_demand_matrix:  (219780, 12)
+ifmap_demand_mat (219780, 12)
+filter_demand_mat (219780, 14)
+ofmap_demand_mat (219780, 14)
+Compute cycles: 219779
+Stall cycles: 0
+Overall utilization: 89.46%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 10.838 words/cycle
+Average Filter DRAM BW: 0.355 words/cycle
+Average OFMAP DRAM BW: 12.922 words/cycle
+
+Running Layer 19
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  420
+Shape of Row Indices:  (420,)
+Shape of Col Indices:  (512,)
+Shape of i and j:  (420, 512)
+Shape of ifmap_addr_matrix:  (420, 512)
+Shape of ifmap_op_matrix:  (420, 512)
+Shape of filter_op_mat:    (512, 128)
+Shape of ofmap_op_mat:     (420, 128)
+Demand Matrix Calculation: fr (row_fold) ->  43
+Demand Matrix Calculation: fc (col_fold) ->  10
+Shape of ifmap_demand_matrix:  (196080, 12)
+ifmap_demand_mat (196080, 12)
+filter_demand_mat (196080, 14)
+ofmap_demand_mat (196080, 14)
+Compute cycles: 196079
+Stall cycles: 0
+Overall utilization: 83.56%
+Mapping efficiency: 90.72%
+Average IFMAP DRAM BW: 10.954 words/cycle
+Average Filter DRAM BW: 0.430 words/cycle
+Average OFMAP DRAM BW: 11.845 words/cycle
+
+Running Layer 20
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  312
+Shape of Row Indices:  (312,)
+Shape of Col Indices:  (1152,)
+Shape of i and j:  (312, 1152)
+Shape of ifmap_addr_matrix:  (312, 1152)
+Shape of ifmap_op_matrix:  (312, 1152)
+Shape of filter_op_mat:    (1152, 128)
+Shape of ofmap_op_mat:     (312, 128)
+Demand Matrix Calculation: fr (row_fold) ->  96
+Demand Matrix Calculation: fc (col_fold) ->  10
+Shape of ifmap_demand_matrix:  (334080, 12)
+ifmap_demand_mat (334080, 12)
+filter_demand_mat (334080, 14)
+ofmap_demand_mat (334080, 14)
+Compute cycles: 334079
+Stall cycles: 0
+Overall utilization: 81.97%
+Mapping efficiency: 91.43%
+Average IFMAP DRAM BW: 10.718 words/cycle
+Average Filter DRAM BW: 0.444 words/cycle
+Average OFMAP DRAM BW: 11.482 words/cycle
+
+Running Layer 21
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  560
+Shape of Row Indices:  (560,)
+Shape of Col Indices:  (128,)
+Shape of i and j:  (560, 128)
+Shape of ifmap_addr_matrix:  (560, 128)
+Shape of ifmap_op_matrix:  (560, 128)
+Shape of filter_op_mat:    (128, 512)
+Shape of ofmap_op_mat:     (560, 512)
+Demand Matrix Calculation: fr (row_fold) ->  11
+Demand Matrix Calculation: fc (col_fold) ->  37
+Shape of ifmap_demand_matrix:  (242572, 12)
+ifmap_demand_mat (242572, 12)
+filter_demand_mat (242572, 14)
+ofmap_demand_mat (242572, 14)
+Compute cycles: 242571
+Stall cycles: 0
+Overall utilization: 90.06%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 10.867 words/cycle
+Average Filter DRAM BW: 0.322 words/cycle
+Average OFMAP DRAM BW: 13.071 words/cycle
+
+Running Layer 22
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  165
+Shape of Row Indices:  (165,)
+Shape of Col Indices:  (512,)
+Shape of i and j:  (165, 512)
+Shape of ifmap_addr_matrix:  (165, 512)
+Shape of ifmap_op_matrix:  (165, 512)
+Shape of filter_op_mat:    (512, 256)
+Shape of ofmap_op_mat:     (165, 256)
+Demand Matrix Calculation: fr (row_fold) ->  43
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (164217, 12)
+ifmap_demand_mat (164217, 12)
+filter_demand_mat (164217, 14)
+ofmap_demand_mat (164217, 14)
+Compute cycles: 164216
+Stall cycles: 0
+Overall utilization: 78.39%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 9.072 words/cycle
+Average Filter DRAM BW: 0.835 words/cycle
+Average OFMAP DRAM BW: 11.121 words/cycle
+
+Running Layer 23
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  48
+Shape of Row Indices:  (48,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (48, 2304)
+Shape of ifmap_addr_matrix:  (48, 2304)
+Shape of ifmap_op_matrix:  (48, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (48, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (306432, 12)
+ifmap_demand_mat (306432, 12)
+filter_demand_mat (306432, 14)
+ofmap_demand_mat (306432, 14)
+Compute cycles: 306431
+Stall cycles: 0
+Overall utilization: 54.99%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 2.291 words/cycle
+Average Filter DRAM BW: 1.925 words/cycle
+Average OFMAP DRAM BW: 7.725 words/cycle
+
+Running Layer 24
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  14
+Shape of Row Indices:  (14,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (14, 256)
+Shape of ifmap_addr_matrix:  (14, 256)
+Shape of ifmap_op_matrix:  (14, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (14, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (81400, 12)
+ifmap_demand_mat (81400, 12)
+filter_demand_mat (81400, 14)
+ofmap_demand_mat (81400, 14)
+Compute cycles: 81399
+Stall cycles: 0
+Overall utilization: 26.84%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 3.242 words/cycle
+Average OFMAP DRAM BW: 4.106 words/cycle
+
+Running Layer 25
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  70
+Shape of Row Indices:  (70,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (70, 1024)
+Shape of ifmap_addr_matrix:  (70, 1024)
+Shape of ifmap_op_matrix:  (70, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (70, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (173204, 12)
+ifmap_demand_mat (173204, 12)
+filter_demand_mat (173204, 14)
+ofmap_demand_mat (173204, 14)
+Compute cycles: 173203
+Stall cycles: 0
+Overall utilization: 63.06%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 7.787 words/cycle
+Average Filter DRAM BW: 1.584 words/cycle
+Average OFMAP DRAM BW: 8.960 words/cycle
+
+Running Layer 26
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  12
+Shape of Row Indices:  (12,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (12, 2304)
+Shape of ifmap_addr_matrix:  (12, 2304)
+Shape of ifmap_op_matrix:  (12, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (12, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (175104, 12)
+ifmap_demand_mat (175104, 12)
+filter_demand_mat (175104, 14)
+ofmap_demand_mat (175104, 14)
+Compute cycles: 175103
+Stall cycles: 0
+Overall utilization: 24.06%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 3.353 words/cycle
+Average OFMAP DRAM BW: 3.446 words/cycle
+
+Running Layer 27
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  28
+Shape of Row Indices:  (28,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (28, 256)
+Shape of ifmap_addr_matrix:  (28, 256)
+Shape of ifmap_op_matrix:  (28, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (28, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (104192, 12)
+ifmap_demand_mat (104192, 12)
+filter_demand_mat (104192, 14)
+ofmap_demand_mat (104192, 14)
+Compute cycles: 104191
+Stall cycles: 0
+Overall utilization: 41.93%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 2.546 words/cycle
+Average OFMAP DRAM BW: 6.218 words/cycle
+
+Running Layer 28
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  42
+Shape of Row Indices:  (42,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (42, 1024)
+Shape of ifmap_addr_matrix:  (42, 1024)
+Shape of ifmap_op_matrix:  (42, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (42, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (127452, 12)
+ifmap_demand_mat (127452, 12)
+filter_demand_mat (127452, 14)
+ofmap_demand_mat (127452, 14)
+Compute cycles: 127451
+Stall cycles: 0
+Overall utilization: 51.42%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 6.381 words/cycle
+Average Filter DRAM BW: 2.144 words/cycle
+Average OFMAP DRAM BW: 7.385 words/cycle
+
+Running Layer 29
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  24
+Shape of Row Indices:  (24,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (24, 2304)
+Shape of ifmap_addr_matrix:  (24, 2304)
+Shape of ifmap_op_matrix:  (24, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (24, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (218880, 12)
+ifmap_demand_mat (218880, 12)
+filter_demand_mat (218880, 14)
+ofmap_demand_mat (218880, 14)
+Compute cycles: 218879
+Stall cycles: 0
+Overall utilization: 38.50%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 2.688 words/cycle
+Average OFMAP DRAM BW: 5.439 words/cycle
+
+Running Layer 30
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (56, 256)
+Shape of ifmap_addr_matrix:  (56, 256)
+Shape of ifmap_op_matrix:  (56, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (56, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (149776, 12)
+ifmap_demand_mat (149776, 12)
+filter_demand_mat (149776, 14)
+ofmap_demand_mat (149776, 14)
+Compute cycles: 149775
+Stall cycles: 0
+Overall utilization: 58.34%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 1.781 words/cycle
+Average OFMAP DRAM BW: 8.514 words/cycle
+
+Running Layer 31
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  28
+Shape of Row Indices:  (28,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (28, 1024)
+Shape of ifmap_addr_matrix:  (28, 1024)
+Shape of ifmap_op_matrix:  (28, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (28, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (104576, 12)
+ifmap_demand_mat (104576, 12)
+filter_demand_mat (104576, 14)
+ofmap_demand_mat (104576, 14)
+Compute cycles: 104575
+Stall cycles: 0
+Overall utilization: 41.78%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 5.226 words/cycle
+Average Filter DRAM BW: 2.604 words/cycle
+Average OFMAP DRAM BW: 6.036 words/cycle
+
+Running Layer 32
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  24
+Shape of Row Indices:  (24,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (24, 2304)
+Shape of ifmap_addr_matrix:  (24, 2304)
+Shape of ifmap_op_matrix:  (24, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (24, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (218880, 12)
+ifmap_demand_mat (218880, 12)
+filter_demand_mat (218880, 14)
+ofmap_demand_mat (218880, 14)
+Compute cycles: 218879
+Stall cycles: 0
+Overall utilization: 38.50%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 2.688 words/cycle
+Average OFMAP DRAM BW: 5.439 words/cycle
+
+Running Layer 33
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  42
+Shape of Row Indices:  (42,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (42, 256)
+Shape of ifmap_addr_matrix:  (42, 256)
+Shape of ifmap_op_matrix:  (42, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (42, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (126984, 12)
+ifmap_demand_mat (126984, 12)
+filter_demand_mat (126984, 14)
+ofmap_demand_mat (126984, 14)
+Compute cycles: 126983
+Stall cycles: 0
+Overall utilization: 51.61%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 2.096 words/cycle
+Average OFMAP DRAM BW: 7.572 words/cycle
+
+Running Layer 34
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  42
+Shape of Row Indices:  (42,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (42, 1024)
+Shape of ifmap_addr_matrix:  (42, 1024)
+Shape of ifmap_op_matrix:  (42, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (42, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (127452, 12)
+ifmap_demand_mat (127452, 12)
+filter_demand_mat (127452, 14)
+ofmap_demand_mat (127452, 14)
+Compute cycles: 127451
+Stall cycles: 0
+Overall utilization: 51.42%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 6.381 words/cycle
+Average Filter DRAM BW: 2.144 words/cycle
+Average OFMAP DRAM BW: 7.385 words/cycle
+
+Running Layer 35
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  24
+Shape of Row Indices:  (24,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (24, 2304)
+Shape of ifmap_addr_matrix:  (24, 2304)
+Shape of ifmap_op_matrix:  (24, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (24, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (218880, 12)
+ifmap_demand_mat (218880, 12)
+filter_demand_mat (218880, 14)
+ofmap_demand_mat (218880, 14)
+Compute cycles: 218879
+Stall cycles: 0
+Overall utilization: 38.50%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 2.688 words/cycle
+Average OFMAP DRAM BW: 5.439 words/cycle
+
+Running Layer 36
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  98
+Shape of Row Indices:  (98,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (98, 256)
+Shape of ifmap_addr_matrix:  (98, 256)
+Shape of ifmap_op_matrix:  (98, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (98, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (218152, 12)
+ifmap_demand_mat (218152, 12)
+filter_demand_mat (218152, 14)
+ofmap_demand_mat (218152, 14)
+Compute cycles: 218151
+Stall cycles: 0
+Overall utilization: 70.10%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 8.515 words/cycle
+Average Filter DRAM BW: 1.227 words/cycle
+Average OFMAP DRAM BW: 10.157 words/cycle
+
+Running Layer 37
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (56, 1024)
+Shape of ifmap_addr_matrix:  (56, 1024)
+Shape of ifmap_op_matrix:  (56, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (56, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (150328, 12)
+ifmap_demand_mat (150328, 12)
+filter_demand_mat (150328, 14)
+ofmap_demand_mat (150328, 14)
+Compute cycles: 150327
+Stall cycles: 0
+Overall utilization: 58.13%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 7.189 words/cycle
+Average Filter DRAM BW: 1.822 words/cycle
+Average OFMAP DRAM BW: 8.257 words/cycle
+
+Running Layer 38
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  12
+Shape of Row Indices:  (12,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (12, 2304)
+Shape of ifmap_addr_matrix:  (12, 2304)
+Shape of ifmap_op_matrix:  (12, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (12, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (175104, 12)
+ifmap_demand_mat (175104, 12)
+filter_demand_mat (175104, 14)
+ofmap_demand_mat (175104, 14)
+Compute cycles: 175103
+Stall cycles: 0
+Overall utilization: 24.06%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 3.353 words/cycle
+Average OFMAP DRAM BW: 3.446 words/cycle
+
+Running Layer 39
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  42
+Shape of Row Indices:  (42,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (42, 256)
+Shape of ifmap_addr_matrix:  (42, 256)
+Shape of ifmap_op_matrix:  (42, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (42, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (126984, 12)
+ifmap_demand_mat (126984, 12)
+filter_demand_mat (126984, 14)
+ofmap_demand_mat (126984, 14)
+Compute cycles: 126983
+Stall cycles: 0
+Overall utilization: 51.61%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 2.096 words/cycle
+Average OFMAP DRAM BW: 7.572 words/cycle
+
+Running Layer 40
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  28
+Shape of Row Indices:  (28,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (28, 1024)
+Shape of ifmap_addr_matrix:  (28, 1024)
+Shape of ifmap_op_matrix:  (28, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (28, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (104576, 12)
+ifmap_demand_mat (104576, 12)
+filter_demand_mat (104576, 14)
+ofmap_demand_mat (104576, 14)
+Compute cycles: 104575
+Stall cycles: 0
+Overall utilization: 41.78%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 5.226 words/cycle
+Average Filter DRAM BW: 2.604 words/cycle
+Average OFMAP DRAM BW: 6.036 words/cycle
+
+Running Layer 41
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  24
+Shape of Row Indices:  (24,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (24, 2304)
+Shape of ifmap_addr_matrix:  (24, 2304)
+Shape of ifmap_op_matrix:  (24, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (24, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (218880, 12)
+ifmap_demand_mat (218880, 12)
+filter_demand_mat (218880, 14)
+ofmap_demand_mat (218880, 14)
+Compute cycles: 218879
+Stall cycles: 0
+Overall utilization: 38.50%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 2.688 words/cycle
+Average OFMAP DRAM BW: 5.439 words/cycle
+
+Running Layer 42
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  14
+Shape of Row Indices:  (14,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (14, 256)
+Shape of ifmap_addr_matrix:  (14, 256)
+Shape of ifmap_op_matrix:  (14, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (14, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (81400, 12)
+ifmap_demand_mat (81400, 12)
+filter_demand_mat (81400, 14)
+ofmap_demand_mat (81400, 14)
+Compute cycles: 81399
+Stall cycles: 0
+Overall utilization: 26.84%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 3.242 words/cycle
+Average OFMAP DRAM BW: 4.106 words/cycle
+
+Running Layer 43
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (56, 1024)
+Shape of ifmap_addr_matrix:  (56, 1024)
+Shape of ifmap_op_matrix:  (56, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (56, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (150328, 12)
+ifmap_demand_mat (150328, 12)
+filter_demand_mat (150328, 14)
+ofmap_demand_mat (150328, 14)
+Compute cycles: 150327
+Stall cycles: 0
+Overall utilization: 58.13%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 7.189 words/cycle
+Average Filter DRAM BW: 1.822 words/cycle
+Average OFMAP DRAM BW: 8.257 words/cycle
+
+Running Layer 44
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  24
+Shape of Row Indices:  (24,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (24, 2304)
+Shape of ifmap_addr_matrix:  (24, 2304)
+Shape of ifmap_op_matrix:  (24, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (24, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (218880, 12)
+ifmap_demand_mat (218880, 12)
+filter_demand_mat (218880, 14)
+ofmap_demand_mat (218880, 14)
+Compute cycles: 218879
+Stall cycles: 0
+Overall utilization: 38.50%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 2.688 words/cycle
+Average OFMAP DRAM BW: 5.439 words/cycle
+
+Running Layer 45
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  28
+Shape of Row Indices:  (28,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (28, 256)
+Shape of ifmap_addr_matrix:  (28, 256)
+Shape of ifmap_op_matrix:  (28, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (28, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (104192, 12)
+ifmap_demand_mat (104192, 12)
+filter_demand_mat (104192, 14)
+ofmap_demand_mat (104192, 14)
+Compute cycles: 104191
+Stall cycles: 0
+Overall utilization: 41.93%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 2.546 words/cycle
+Average OFMAP DRAM BW: 6.218 words/cycle
+
+Running Layer 46
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  42
+Shape of Row Indices:  (42,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (42, 1024)
+Shape of ifmap_addr_matrix:  (42, 1024)
+Shape of ifmap_op_matrix:  (42, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (42, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (127452, 12)
+ifmap_demand_mat (127452, 12)
+filter_demand_mat (127452, 14)
+ofmap_demand_mat (127452, 14)
+Compute cycles: 127451
+Stall cycles: 0
+Overall utilization: 51.42%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 6.381 words/cycle
+Average Filter DRAM BW: 2.144 words/cycle
+Average OFMAP DRAM BW: 7.385 words/cycle
+
+Running Layer 47
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  12
+Shape of Row Indices:  (12,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (12, 2304)
+Shape of ifmap_addr_matrix:  (12, 2304)
+Shape of ifmap_op_matrix:  (12, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (12, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (175104, 12)
+ifmap_demand_mat (175104, 12)
+filter_demand_mat (175104, 14)
+ofmap_demand_mat (175104, 14)
+Compute cycles: 175103
+Stall cycles: 0
+Overall utilization: 24.06%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 3.353 words/cycle
+Average OFMAP DRAM BW: 3.446 words/cycle
+
+Running Layer 48
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  42
+Shape of Row Indices:  (42,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (42, 256)
+Shape of ifmap_addr_matrix:  (42, 256)
+Shape of ifmap_op_matrix:  (42, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (42, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (126984, 12)
+ifmap_demand_mat (126984, 12)
+filter_demand_mat (126984, 14)
+ofmap_demand_mat (126984, 14)
+Compute cycles: 126983
+Stall cycles: 0
+Overall utilization: 51.61%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 2.096 words/cycle
+Average OFMAP DRAM BW: 7.572 words/cycle
+
+Running Layer 49
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (56, 1024)
+Shape of ifmap_addr_matrix:  (56, 1024)
+Shape of ifmap_op_matrix:  (56, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (56, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (150328, 12)
+ifmap_demand_mat (150328, 12)
+filter_demand_mat (150328, 14)
+ofmap_demand_mat (150328, 14)
+Compute cycles: 150327
+Stall cycles: 0
+Overall utilization: 58.13%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 7.189 words/cycle
+Average Filter DRAM BW: 1.822 words/cycle
+Average OFMAP DRAM BW: 8.257 words/cycle
+
+Running Layer 50
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  24
+Shape of Row Indices:  (24,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (24, 2304)
+Shape of ifmap_addr_matrix:  (24, 2304)
+Shape of ifmap_op_matrix:  (24, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (24, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (218880, 12)
+ifmap_demand_mat (218880, 12)
+filter_demand_mat (218880, 14)
+ofmap_demand_mat (218880, 14)
+Compute cycles: 218879
+Stall cycles: 0
+Overall utilization: 38.50%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 2.688 words/cycle
+Average OFMAP DRAM BW: 5.439 words/cycle
+
+Running Layer 51
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (56, 256)
+Shape of ifmap_addr_matrix:  (56, 256)
+Shape of ifmap_op_matrix:  (56, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (56, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (149776, 12)
+ifmap_demand_mat (149776, 12)
+filter_demand_mat (149776, 14)
+ofmap_demand_mat (149776, 14)
+Compute cycles: 149775
+Stall cycles: 0
+Overall utilization: 58.34%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 1.781 words/cycle
+Average OFMAP DRAM BW: 8.514 words/cycle
+
+Running Layer 52
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  42
+Shape of Row Indices:  (42,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (42, 1024)
+Shape of ifmap_addr_matrix:  (42, 1024)
+Shape of ifmap_op_matrix:  (42, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (42, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (127452, 12)
+ifmap_demand_mat (127452, 12)
+filter_demand_mat (127452, 14)
+ofmap_demand_mat (127452, 14)
+Compute cycles: 127451
+Stall cycles: 0
+Overall utilization: 51.42%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 6.381 words/cycle
+Average Filter DRAM BW: 2.144 words/cycle
+Average OFMAP DRAM BW: 7.385 words/cycle
+
+Running Layer 53
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  24
+Shape of Row Indices:  (24,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (24, 2304)
+Shape of ifmap_addr_matrix:  (24, 2304)
+Shape of ifmap_op_matrix:  (24, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (24, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (218880, 12)
+ifmap_demand_mat (218880, 12)
+filter_demand_mat (218880, 14)
+ofmap_demand_mat (218880, 14)
+Compute cycles: 218879
+Stall cycles: 0
+Overall utilization: 38.50%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 2.688 words/cycle
+Average OFMAP DRAM BW: 5.439 words/cycle
+
+Running Layer 54
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (56, 256)
+Shape of ifmap_addr_matrix:  (56, 256)
+Shape of ifmap_op_matrix:  (56, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (56, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (149776, 12)
+ifmap_demand_mat (149776, 12)
+filter_demand_mat (149776, 14)
+ofmap_demand_mat (149776, 14)
+Compute cycles: 149775
+Stall cycles: 0
+Overall utilization: 58.34%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 1.781 words/cycle
+Average OFMAP DRAM BW: 8.514 words/cycle
+
+Running Layer 55
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (56, 1024)
+Shape of ifmap_addr_matrix:  (56, 1024)
+Shape of ifmap_op_matrix:  (56, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (56, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (150328, 12)
+ifmap_demand_mat (150328, 12)
+filter_demand_mat (150328, 14)
+ofmap_demand_mat (150328, 14)
+Compute cycles: 150327
+Stall cycles: 0
+Overall utilization: 58.13%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 7.189 words/cycle
+Average Filter DRAM BW: 1.822 words/cycle
+Average OFMAP DRAM BW: 8.257 words/cycle
+
+Running Layer 56
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  36
+Shape of Row Indices:  (36,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (36, 2304)
+Shape of ifmap_addr_matrix:  (36, 2304)
+Shape of ifmap_op_matrix:  (36, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (36, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (262656, 12)
+ifmap_demand_mat (262656, 12)
+filter_demand_mat (262656, 14)
+ofmap_demand_mat (262656, 14)
+Compute cycles: 262655
+Stall cycles: 0
+Overall utilization: 48.12%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.933 words/cycle
+Average Filter DRAM BW: 2.243 words/cycle
+Average OFMAP DRAM BW: 6.771 words/cycle
+
+Running Layer 57
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  84
+Shape of Row Indices:  (84,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (84, 256)
+Shape of ifmap_addr_matrix:  (84, 256)
+Shape of ifmap_op_matrix:  (84, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (84, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (195360, 12)
+ifmap_demand_mat (195360, 12)
+filter_demand_mat (195360, 14)
+ofmap_demand_mat (195360, 14)
+Compute cycles: 195359
+Stall cycles: 0
+Overall utilization: 67.09%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 8.117 words/cycle
+Average Filter DRAM BW: 1.369 words/cycle
+Average OFMAP DRAM BW: 9.737 words/cycle
+
+Running Layer 58
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  42
+Shape of Row Indices:  (42,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (42, 1024)
+Shape of ifmap_addr_matrix:  (42, 1024)
+Shape of ifmap_op_matrix:  (42, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (42, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (127452, 12)
+ifmap_demand_mat (127452, 12)
+filter_demand_mat (127452, 14)
+ofmap_demand_mat (127452, 14)
+Compute cycles: 127451
+Stall cycles: 0
+Overall utilization: 51.42%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 6.381 words/cycle
+Average Filter DRAM BW: 2.144 words/cycle
+Average OFMAP DRAM BW: 7.385 words/cycle
+
+Running Layer 59
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  36
+Shape of Row Indices:  (36,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (36, 2304)
+Shape of ifmap_addr_matrix:  (36, 2304)
+Shape of ifmap_op_matrix:  (36, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (36, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (262656, 12)
+ifmap_demand_mat (262656, 12)
+filter_demand_mat (262656, 14)
+ofmap_demand_mat (262656, 14)
+Compute cycles: 262655
+Stall cycles: 0
+Overall utilization: 48.12%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.933 words/cycle
+Average Filter DRAM BW: 2.243 words/cycle
+Average OFMAP DRAM BW: 6.771 words/cycle
+
+Running Layer 60
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  84
+Shape of Row Indices:  (84,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (84, 256)
+Shape of ifmap_addr_matrix:  (84, 256)
+Shape of ifmap_op_matrix:  (84, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (84, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (195360, 12)
+ifmap_demand_mat (195360, 12)
+filter_demand_mat (195360, 14)
+ofmap_demand_mat (195360, 14)
+Compute cycles: 195359
+Stall cycles: 0
+Overall utilization: 67.09%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 8.117 words/cycle
+Average Filter DRAM BW: 1.369 words/cycle
+Average OFMAP DRAM BW: 9.737 words/cycle
+
+Running Layer 61
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (56, 1024)
+Shape of ifmap_addr_matrix:  (56, 1024)
+Shape of ifmap_op_matrix:  (56, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (56, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (150328, 12)
+ifmap_demand_mat (150328, 12)
+filter_demand_mat (150328, 14)
+ofmap_demand_mat (150328, 14)
+Compute cycles: 150327
+Stall cycles: 0
+Overall utilization: 58.13%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 7.189 words/cycle
+Average Filter DRAM BW: 1.822 words/cycle
+Average OFMAP DRAM BW: 8.257 words/cycle
+
+Running Layer 62
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  12
+Shape of Row Indices:  (12,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (12, 2304)
+Shape of ifmap_addr_matrix:  (12, 2304)
+Shape of ifmap_op_matrix:  (12, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (12, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (175104, 12)
+ifmap_demand_mat (175104, 12)
+filter_demand_mat (175104, 14)
+ofmap_demand_mat (175104, 14)
+Compute cycles: 175103
+Stall cycles: 0
+Overall utilization: 24.06%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 3.353 words/cycle
+Average OFMAP DRAM BW: 3.446 words/cycle
+
+Running Layer 63
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (56, 256)
+Shape of ifmap_addr_matrix:  (56, 256)
+Shape of ifmap_op_matrix:  (56, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (56, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (149776, 12)
+ifmap_demand_mat (149776, 12)
+filter_demand_mat (149776, 14)
+ofmap_demand_mat (149776, 14)
+Compute cycles: 149775
+Stall cycles: 0
+Overall utilization: 58.34%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 1.781 words/cycle
+Average OFMAP DRAM BW: 8.514 words/cycle
+
+Running Layer 64
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  28
+Shape of Row Indices:  (28,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (28, 1024)
+Shape of ifmap_addr_matrix:  (28, 1024)
+Shape of ifmap_op_matrix:  (28, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (28, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (104576, 12)
+ifmap_demand_mat (104576, 12)
+filter_demand_mat (104576, 14)
+ofmap_demand_mat (104576, 14)
+Compute cycles: 104575
+Stall cycles: 0
+Overall utilization: 41.78%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 5.226 words/cycle
+Average Filter DRAM BW: 2.604 words/cycle
+Average OFMAP DRAM BW: 6.036 words/cycle
+
+Running Layer 65
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  24
+Shape of Row Indices:  (24,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (24, 2304)
+Shape of ifmap_addr_matrix:  (24, 2304)
+Shape of ifmap_op_matrix:  (24, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (24, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (218880, 12)
+ifmap_demand_mat (218880, 12)
+filter_demand_mat (218880, 14)
+ofmap_demand_mat (218880, 14)
+Compute cycles: 218879
+Stall cycles: 0
+Overall utilization: 38.50%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 2.688 words/cycle
+Average OFMAP DRAM BW: 5.439 words/cycle
+
+Running Layer 66
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (56, 256)
+Shape of ifmap_addr_matrix:  (56, 256)
+Shape of ifmap_op_matrix:  (56, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (56, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (149776, 12)
+ifmap_demand_mat (149776, 12)
+filter_demand_mat (149776, 14)
+ofmap_demand_mat (149776, 14)
+Compute cycles: 149775
+Stall cycles: 0
+Overall utilization: 58.34%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 1.781 words/cycle
+Average OFMAP DRAM BW: 8.514 words/cycle
+
+Running Layer 67
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (56, 1024)
+Shape of ifmap_addr_matrix:  (56, 1024)
+Shape of ifmap_op_matrix:  (56, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (56, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (150328, 12)
+ifmap_demand_mat (150328, 12)
+filter_demand_mat (150328, 14)
+ofmap_demand_mat (150328, 14)
+Compute cycles: 150327
+Stall cycles: 0
+Overall utilization: 58.13%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 7.189 words/cycle
+Average Filter DRAM BW: 1.822 words/cycle
+Average OFMAP DRAM BW: 8.257 words/cycle
+
+Running Layer 68
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  12
+Shape of Row Indices:  (12,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (12, 2304)
+Shape of ifmap_addr_matrix:  (12, 2304)
+Shape of ifmap_op_matrix:  (12, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (12, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (175104, 12)
+ifmap_demand_mat (175104, 12)
+filter_demand_mat (175104, 14)
+ofmap_demand_mat (175104, 14)
+Compute cycles: 175103
+Stall cycles: 0
+Overall utilization: 24.06%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 3.353 words/cycle
+Average OFMAP DRAM BW: 3.446 words/cycle
+
+Running Layer 69
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (56, 256)
+Shape of ifmap_addr_matrix:  (56, 256)
+Shape of ifmap_op_matrix:  (56, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (56, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (149776, 12)
+ifmap_demand_mat (149776, 12)
+filter_demand_mat (149776, 14)
+ofmap_demand_mat (149776, 14)
+Compute cycles: 149775
+Stall cycles: 0
+Overall utilization: 58.34%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 1.781 words/cycle
+Average OFMAP DRAM BW: 8.514 words/cycle
+
+Running Layer 70
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  42
+Shape of Row Indices:  (42,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (42, 1024)
+Shape of ifmap_addr_matrix:  (42, 1024)
+Shape of ifmap_op_matrix:  (42, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (42, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (127452, 12)
+ifmap_demand_mat (127452, 12)
+filter_demand_mat (127452, 14)
+ofmap_demand_mat (127452, 14)
+Compute cycles: 127451
+Stall cycles: 0
+Overall utilization: 51.42%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 6.381 words/cycle
+Average Filter DRAM BW: 2.144 words/cycle
+Average OFMAP DRAM BW: 7.385 words/cycle
+
+Running Layer 71
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  36
+Shape of Row Indices:  (36,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (36, 2304)
+Shape of ifmap_addr_matrix:  (36, 2304)
+Shape of ifmap_op_matrix:  (36, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (36, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (262656, 12)
+ifmap_demand_mat (262656, 12)
+filter_demand_mat (262656, 14)
+ofmap_demand_mat (262656, 14)
+Compute cycles: 262655
+Stall cycles: 0
+Overall utilization: 48.12%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.933 words/cycle
+Average Filter DRAM BW: 2.243 words/cycle
+Average OFMAP DRAM BW: 6.771 words/cycle
+
+Running Layer 72
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (56, 256)
+Shape of ifmap_addr_matrix:  (56, 256)
+Shape of ifmap_op_matrix:  (56, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (56, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (149776, 12)
+ifmap_demand_mat (149776, 12)
+filter_demand_mat (149776, 14)
+ofmap_demand_mat (149776, 14)
+Compute cycles: 149775
+Stall cycles: 0
+Overall utilization: 58.34%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 1.781 words/cycle
+Average OFMAP DRAM BW: 8.514 words/cycle
+
+Running Layer 73
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  42
+Shape of Row Indices:  (42,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (42, 1024)
+Shape of ifmap_addr_matrix:  (42, 1024)
+Shape of ifmap_op_matrix:  (42, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (42, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (127452, 12)
+ifmap_demand_mat (127452, 12)
+filter_demand_mat (127452, 14)
+ofmap_demand_mat (127452, 14)
+Compute cycles: 127451
+Stall cycles: 0
+Overall utilization: 51.42%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 6.381 words/cycle
+Average Filter DRAM BW: 2.144 words/cycle
+Average OFMAP DRAM BW: 7.385 words/cycle
+
+Running Layer 74
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  24
+Shape of Row Indices:  (24,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (24, 2304)
+Shape of ifmap_addr_matrix:  (24, 2304)
+Shape of ifmap_op_matrix:  (24, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (24, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (218880, 12)
+ifmap_demand_mat (218880, 12)
+filter_demand_mat (218880, 14)
+ofmap_demand_mat (218880, 14)
+Compute cycles: 218879
+Stall cycles: 0
+Overall utilization: 38.50%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 2.688 words/cycle
+Average OFMAP DRAM BW: 5.439 words/cycle
+
+Running Layer 75
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  42
+Shape of Row Indices:  (42,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (42, 256)
+Shape of ifmap_addr_matrix:  (42, 256)
+Shape of ifmap_op_matrix:  (42, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (42, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (126984, 12)
+ifmap_demand_mat (126984, 12)
+filter_demand_mat (126984, 14)
+ofmap_demand_mat (126984, 14)
+Compute cycles: 126983
+Stall cycles: 0
+Overall utilization: 51.61%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 2.096 words/cycle
+Average OFMAP DRAM BW: 7.572 words/cycle
+
+Running Layer 76
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  42
+Shape of Row Indices:  (42,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (42, 1024)
+Shape of ifmap_addr_matrix:  (42, 1024)
+Shape of ifmap_op_matrix:  (42, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (42, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (127452, 12)
+ifmap_demand_mat (127452, 12)
+filter_demand_mat (127452, 14)
+ofmap_demand_mat (127452, 14)
+Compute cycles: 127451
+Stall cycles: 0
+Overall utilization: 51.42%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 6.381 words/cycle
+Average Filter DRAM BW: 2.144 words/cycle
+Average OFMAP DRAM BW: 7.385 words/cycle
+
+Running Layer 77
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  24
+Shape of Row Indices:  (24,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (24, 2304)
+Shape of ifmap_addr_matrix:  (24, 2304)
+Shape of ifmap_op_matrix:  (24, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (24, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (218880, 12)
+ifmap_demand_mat (218880, 12)
+filter_demand_mat (218880, 14)
+ofmap_demand_mat (218880, 14)
+Compute cycles: 218879
+Stall cycles: 0
+Overall utilization: 38.50%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 2.688 words/cycle
+Average OFMAP DRAM BW: 5.439 words/cycle
+
+Running Layer 78
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (56, 256)
+Shape of ifmap_addr_matrix:  (56, 256)
+Shape of ifmap_op_matrix:  (56, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (56, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (149776, 12)
+ifmap_demand_mat (149776, 12)
+filter_demand_mat (149776, 14)
+ofmap_demand_mat (149776, 14)
+Compute cycles: 149775
+Stall cycles: 0
+Overall utilization: 58.34%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 1.781 words/cycle
+Average OFMAP DRAM BW: 8.514 words/cycle
+
+Running Layer 79
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (56, 1024)
+Shape of ifmap_addr_matrix:  (56, 1024)
+Shape of ifmap_op_matrix:  (56, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (56, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (150328, 12)
+ifmap_demand_mat (150328, 12)
+filter_demand_mat (150328, 14)
+ofmap_demand_mat (150328, 14)
+Compute cycles: 150327
+Stall cycles: 0
+Overall utilization: 58.13%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 7.189 words/cycle
+Average Filter DRAM BW: 1.822 words/cycle
+Average OFMAP DRAM BW: 8.257 words/cycle
+
+Running Layer 80
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  24
+Shape of Row Indices:  (24,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (24, 2304)
+Shape of ifmap_addr_matrix:  (24, 2304)
+Shape of ifmap_op_matrix:  (24, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (24, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (218880, 12)
+ifmap_demand_mat (218880, 12)
+filter_demand_mat (218880, 14)
+ofmap_demand_mat (218880, 14)
+Compute cycles: 218879
+Stall cycles: 0
+Overall utilization: 38.50%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 2.688 words/cycle
+Average OFMAP DRAM BW: 5.439 words/cycle
+
+Running Layer 81
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  70
+Shape of Row Indices:  (70,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (70, 256)
+Shape of ifmap_addr_matrix:  (70, 256)
+Shape of ifmap_op_matrix:  (70, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (70, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (172568, 12)
+ifmap_demand_mat (172568, 12)
+filter_demand_mat (172568, 14)
+ofmap_demand_mat (172568, 14)
+Compute cycles: 172567
+Stall cycles: 0
+Overall utilization: 63.30%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.933 words/cycle
+Average Filter DRAM BW: 1.548 words/cycle
+Average OFMAP DRAM BW: 9.206 words/cycle
+
+Running Layer 82
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  42
+Shape of Row Indices:  (42,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (42, 1024)
+Shape of ifmap_addr_matrix:  (42, 1024)
+Shape of ifmap_op_matrix:  (42, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (42, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (127452, 12)
+ifmap_demand_mat (127452, 12)
+filter_demand_mat (127452, 14)
+ofmap_demand_mat (127452, 14)
+Compute cycles: 127451
+Stall cycles: 0
+Overall utilization: 51.42%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 6.381 words/cycle
+Average Filter DRAM BW: 2.144 words/cycle
+Average OFMAP DRAM BW: 7.385 words/cycle
+
+Running Layer 83
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  36
+Shape of Row Indices:  (36,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (36, 2304)
+Shape of ifmap_addr_matrix:  (36, 2304)
+Shape of ifmap_op_matrix:  (36, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (36, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (262656, 12)
+ifmap_demand_mat (262656, 12)
+filter_demand_mat (262656, 14)
+ofmap_demand_mat (262656, 14)
+Compute cycles: 262655
+Stall cycles: 0
+Overall utilization: 48.12%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.933 words/cycle
+Average Filter DRAM BW: 2.243 words/cycle
+Average OFMAP DRAM BW: 6.771 words/cycle
+
+Running Layer 84
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (56, 256)
+Shape of ifmap_addr_matrix:  (56, 256)
+Shape of ifmap_op_matrix:  (56, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (56, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (149776, 12)
+ifmap_demand_mat (149776, 12)
+filter_demand_mat (149776, 14)
+ofmap_demand_mat (149776, 14)
+Compute cycles: 149775
+Stall cycles: 0
+Overall utilization: 58.34%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 1.781 words/cycle
+Average OFMAP DRAM BW: 8.514 words/cycle
+
+Running Layer 85
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  56
+Shape of Row Indices:  (56,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (56, 1024)
+Shape of ifmap_addr_matrix:  (56, 1024)
+Shape of ifmap_op_matrix:  (56, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (56, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (150328, 12)
+ifmap_demand_mat (150328, 12)
+filter_demand_mat (150328, 14)
+ofmap_demand_mat (150328, 14)
+Compute cycles: 150327
+Stall cycles: 0
+Overall utilization: 58.13%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 7.189 words/cycle
+Average Filter DRAM BW: 1.822 words/cycle
+Average OFMAP DRAM BW: 8.257 words/cycle
+
+Running Layer 86
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  24
+Shape of Row Indices:  (24,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (24, 2304)
+Shape of ifmap_addr_matrix:  (24, 2304)
+Shape of ifmap_op_matrix:  (24, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (24, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (218880, 12)
+ifmap_demand_mat (218880, 12)
+filter_demand_mat (218880, 14)
+ofmap_demand_mat (218880, 14)
+Compute cycles: 218879
+Stall cycles: 0
+Overall utilization: 38.50%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 2.688 words/cycle
+Average OFMAP DRAM BW: 5.439 words/cycle
+
+Running Layer 87
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  70
+Shape of Row Indices:  (70,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (70, 256)
+Shape of ifmap_addr_matrix:  (70, 256)
+Shape of ifmap_op_matrix:  (70, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (70, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (172568, 12)
+ifmap_demand_mat (172568, 12)
+filter_demand_mat (172568, 14)
+ofmap_demand_mat (172568, 14)
+Compute cycles: 172567
+Stall cycles: 0
+Overall utilization: 63.30%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.933 words/cycle
+Average Filter DRAM BW: 1.548 words/cycle
+Average OFMAP DRAM BW: 9.206 words/cycle
+
+Running Layer 88
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  42
+Shape of Row Indices:  (42,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (42, 1024)
+Shape of ifmap_addr_matrix:  (42, 1024)
+Shape of ifmap_op_matrix:  (42, 1024)
+Shape of filter_op_mat:    (1024, 256)
+Shape of ofmap_op_mat:     (42, 256)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (127452, 12)
+ifmap_demand_mat (127452, 12)
+filter_demand_mat (127452, 14)
+ofmap_demand_mat (127452, 14)
+Compute cycles: 127451
+Stall cycles: 0
+Overall utilization: 51.42%
+Mapping efficiency: 95.49%
+Average IFMAP DRAM BW: 6.381 words/cycle
+Average Filter DRAM BW: 2.144 words/cycle
+Average OFMAP DRAM BW: 7.385 words/cycle
+
+Running Layer 89
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  36
+Shape of Row Indices:  (36,)
+Shape of Col Indices:  (2304,)
+Shape of i and j:  (36, 2304)
+Shape of ifmap_addr_matrix:  (36, 2304)
+Shape of ifmap_op_matrix:  (36, 2304)
+Shape of filter_op_mat:    (2304, 256)
+Shape of ofmap_op_mat:     (36, 256)
+Demand Matrix Calculation: fr (row_fold) ->  192
+Demand Matrix Calculation: fc (col_fold) ->  19
+Shape of ifmap_demand_matrix:  (262656, 12)
+ifmap_demand_mat (262656, 12)
+filter_demand_mat (262656, 14)
+ofmap_demand_mat (262656, 14)
+Compute cycles: 262655
+Stall cycles: 0
+Overall utilization: 48.12%
+Mapping efficiency: 96.24%
+Average IFMAP DRAM BW: 9.933 words/cycle
+Average Filter DRAM BW: 2.243 words/cycle
+Average OFMAP DRAM BW: 6.771 words/cycle
+
+Running Layer 90
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  70
+Shape of Row Indices:  (70,)
+Shape of Col Indices:  (256,)
+Shape of i and j:  (70, 256)
+Shape of ifmap_addr_matrix:  (70, 256)
+Shape of ifmap_op_matrix:  (70, 256)
+Shape of filter_op_mat:    (256, 1024)
+Shape of ofmap_op_mat:     (70, 1024)
+Demand Matrix Calculation: fr (row_fold) ->  22
+Demand Matrix Calculation: fc (col_fold) ->  74
+Shape of ifmap_demand_matrix:  (172568, 12)
+ifmap_demand_mat (172568, 12)
+filter_demand_mat (172568, 14)
+ofmap_demand_mat (172568, 14)
+Compute cycles: 172567
+Stall cycles: 0
+Overall utilization: 63.30%
+Mapping efficiency: 95.85%
+Average IFMAP DRAM BW: 9.933 words/cycle
+Average Filter DRAM BW: 1.548 words/cycle
+Average OFMAP DRAM BW: 9.206 words/cycle
+
+Running Layer 91
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  16
+Shape of Row Indices:  (16,)
+Shape of Col Indices:  (1024,)
+Shape of i and j:  (16, 1024)
+Shape of ifmap_addr_matrix:  (16, 1024)
+Shape of ifmap_op_matrix:  (16, 1024)
+Shape of filter_op_mat:    (1024, 512)
+Shape of ofmap_op_mat:     (16, 512)
+Demand Matrix Calculation: fr (row_fold) ->  86
+Demand Matrix Calculation: fc (col_fold) ->  37
+Shape of ifmap_demand_matrix:  (165464, 12)
+ifmap_demand_mat (165464, 12)
+filter_demand_mat (165464, 14)
+ofmap_demand_mat (165464, 14)
+Compute cycles: 165463
+Stall cycles: 0
+Overall utilization: 30.18%
+Mapping efficiency: 98.08%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 3.227 words/cycle
+Average OFMAP DRAM BW: 4.363 words/cycle
+
+Running Layer 92
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  5
+Shape of Row Indices:  (5,)
+Shape of Col Indices:  (4608,)
+Shape of i and j:  (5, 4608)
+Shape of ifmap_addr_matrix:  (5, 4608)
+Shape of ifmap_op_matrix:  (5, 4608)
+Shape of filter_op_mat:    (4608, 512)
+Shape of ofmap_op_mat:     (5, 512)
+Demand Matrix Calculation: fr (row_fold) ->  384
+Demand Matrix Calculation: fc (col_fold) ->  37
+Shape of ifmap_demand_matrix:  (582528, 12)
+ifmap_demand_mat (582528, 12)
+filter_demand_mat (582528, 14)
+ofmap_demand_mat (582528, 14)
+Compute cycles: 582527
+Stall cycles: 0
+Overall utilization: 12.05%
+Mapping efficiency: 98.84%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 4.050 words/cycle
+Average OFMAP DRAM BW: 1.718 words/cycle
+
+Running Layer 93
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  7
+Shape of Row Indices:  (7,)
+Shape of Col Indices:  (512,)
+Shape of i and j:  (7, 512)
+Shape of ifmap_addr_matrix:  (7, 512)
+Shape of ifmap_op_matrix:  (7, 512)
+Shape of filter_op_mat:    (512, 2048)
+Shape of ofmap_op_mat:     (7, 2048)
+Demand Matrix Calculation: fr (row_fold) ->  43
+Demand Matrix Calculation: fc (col_fold) ->  147
+Shape of ifmap_demand_matrix:  (271803, 12)
+ifmap_demand_mat (271803, 12)
+filter_demand_mat (271803, 14)
+ofmap_demand_mat (271803, 14)
+Compute cycles: 271802
+Stall cycles: 0
+Overall utilization: 16.07%
+Mapping efficiency: 98.74%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 3.919 words/cycle
+Average OFMAP DRAM BW: 2.333 words/cycle
+
+Running Layer 94
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  7
+Shape of Row Indices:  (7,)
+Shape of Col Indices:  (2048,)
+Shape of i and j:  (7, 2048)
+Shape of ifmap_addr_matrix:  (7, 2048)
+Shape of ifmap_op_matrix:  (7, 2048)
+Shape of filter_op_mat:    (2048, 512)
+Shape of ofmap_op_mat:     (7, 512)
+Demand Matrix Calculation: fr (row_fold) ->  171
+Demand Matrix Calculation: fc (col_fold) ->  37
+Shape of ifmap_demand_matrix:  (272061, 12)
+ifmap_demand_mat (272061, 12)
+filter_demand_mat (272061, 14)
+ofmap_demand_mat (272061, 14)
+Compute cycles: 272060
+Stall cycles: 0
+Overall utilization: 16.06%
+Mapping efficiency: 98.65%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 3.941 words/cycle
+Average OFMAP DRAM BW: 2.319 words/cycle
+
+Running Layer 95
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  5
+Shape of Row Indices:  (5,)
+Shape of Col Indices:  (4608,)
+Shape of i and j:  (5, 4608)
+Shape of ifmap_addr_matrix:  (5, 4608)
+Shape of ifmap_op_matrix:  (5, 4608)
+Shape of filter_op_mat:    (4608, 512)
+Shape of ofmap_op_mat:     (5, 512)
+Demand Matrix Calculation: fr (row_fold) ->  384
+Demand Matrix Calculation: fc (col_fold) ->  37
+Shape of ifmap_demand_matrix:  (582528, 12)
+ifmap_demand_mat (582528, 12)
+filter_demand_mat (582528, 14)
+ofmap_demand_mat (582528, 14)
+Compute cycles: 582527
+Stall cycles: 0
+Overall utilization: 12.05%
+Mapping efficiency: 98.84%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 4.050 words/cycle
+Average OFMAP DRAM BW: 1.718 words/cycle
+
+Running Layer 96
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  7
+Shape of Row Indices:  (7,)
+Shape of Col Indices:  (512,)
+Shape of i and j:  (7, 512)
+Shape of ifmap_addr_matrix:  (7, 512)
+Shape of ifmap_op_matrix:  (7, 512)
+Shape of filter_op_mat:    (512, 2048)
+Shape of ofmap_op_mat:     (7, 2048)
+Demand Matrix Calculation: fr (row_fold) ->  43
+Demand Matrix Calculation: fc (col_fold) ->  147
+Shape of ifmap_demand_matrix:  (271803, 12)
+ifmap_demand_mat (271803, 12)
+filter_demand_mat (271803, 14)
+ofmap_demand_mat (271803, 14)
+Compute cycles: 271802
+Stall cycles: 0
+Overall utilization: 16.07%
+Mapping efficiency: 98.74%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 3.919 words/cycle
+Average OFMAP DRAM BW: 2.333 words/cycle
+
+Running Layer 97
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  7
+Shape of Row Indices:  (7,)
+Shape of Col Indices:  (2048,)
+Shape of i and j:  (7, 2048)
+Shape of ifmap_addr_matrix:  (7, 2048)
+Shape of ifmap_op_matrix:  (7, 2048)
+Shape of filter_op_mat:    (2048, 512)
+Shape of ofmap_op_mat:     (7, 512)
+Demand Matrix Calculation: fr (row_fold) ->  171
+Demand Matrix Calculation: fc (col_fold) ->  37
+Shape of ifmap_demand_matrix:  (272061, 12)
+ifmap_demand_mat (272061, 12)
+filter_demand_mat (272061, 14)
+ofmap_demand_mat (272061, 14)
+Compute cycles: 272060
+Stall cycles: 0
+Overall utilization: 16.06%
+Mapping efficiency: 98.65%
+Average IFMAP DRAM BW: 9.983 words/cycle
+Average Filter DRAM BW: 3.941 words/cycle
+Average OFMAP DRAM BW: 2.319 words/cycle
+
+Running Layer 98
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  5
+Shape of Row Indices:  (5,)
+Shape of Col Indices:  (4608,)
+Shape of i and j:  (5, 4608)
+Shape of ifmap_addr_matrix:  (5, 4608)
+Shape of ifmap_op_matrix:  (5, 4608)
+Shape of filter_op_mat:    (4608, 512)
+Shape of ofmap_op_mat:     (5, 512)
+Demand Matrix Calculation: fr (row_fold) ->  384
+Demand Matrix Calculation: fc (col_fold) ->  37
+Shape of ifmap_demand_matrix:  (582528, 12)
+ifmap_demand_mat (582528, 12)
+filter_demand_mat (582528, 14)
+ofmap_demand_mat (582528, 14)
+Compute cycles: 582527
+Stall cycles: 0
+Overall utilization: 12.05%
+Mapping efficiency: 98.84%
+Average IFMAP DRAM BW: 9.739 words/cycle
+Average Filter DRAM BW: 4.050 words/cycle
+Average OFMAP DRAM BW: 1.718 words/cycle
+
+Running Layer 99
+Batch Size:  1
+Output Feature Map per Filter (ofmap_px_per_filt):  49
+Shape of Row Indices:  (49,)
+Shape of Col Indices:  (512,)
+Shape of i and j:  (49, 512)
+Shape of ifmap_addr_matrix:  (49, 512)
+Shape of ifmap_op_matrix:  (49, 512)
+Shape of filter_op_mat:    (512, 2048)
+Shape of ofmap_op_mat:     (49, 2048)
+Demand Matrix Calculation: fr (row_fold) ->  43
+Demand Matrix Calculation: fc (col_fold) ->  147
+Shape of ifmap_demand_matrix:  (537285, 12)
+ifmap_demand_mat (537285, 12)
+filter_demand_mat (537285, 14)
+ofmap_demand_mat (537285, 14)
+Compute cycles: 537284
+Stall cycles: 0
+Overall utilization: 56.92%
+Mapping efficiency: 98.74%
+Average IFMAP DRAM BW: 6.856 words/cycle
+Average Filter DRAM BW: 1.989 words/cycle
+Average OFMAP DRAM BW: 8.064 words/cycle
+************ SCALE SIM Run Complete ****************

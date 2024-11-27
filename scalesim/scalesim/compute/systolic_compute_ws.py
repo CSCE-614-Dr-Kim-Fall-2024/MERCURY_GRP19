@@ -9,29 +9,29 @@ class systolic_compute_ws:
         # Params set by user
         self.config = cfg()
 
-        self.ifmap_op_mat = np.zeros((1, 1))
-        self.ofmap_op_mat = np.zeros((1, 1))
-        self.filter_op_mat = np.zeros((1, 1))
+        self.ifmap_op_mat = np.zeros((1, 1))    #Shape - () 
+        self.ofmap_op_mat = np.zeros((1, 1))    #Shape - ()
+        self.filter_op_mat = np.zeros((1, 1))   #Shape - ()
 
         # Derived parameters
-        self.Sr = 0
-        self.Sc = 0
-        self.T = 0
+        self.Sr = 0                             # = self.ifmap_op_mat.shape[1]    Convolution Window Size
+        self.Sc = 0                             # = self.filter_op_mat.shape[1]   
+        self.T = 0                              # = self.ifmap_op_mat.shape[0]    OFMAP per FILTER
 
-        self.arr_row = 0
-        self.arr_col = 0
+        self.arr_row = 0                        # 12 PE
+        self.arr_col = 0                        # 14 PE
 
-        self.row_fold = 1
-        self.col_fold = 1
+        self.row_fold = 1                       # = math.ceil(self.Sr / self.arr_row)
+        self.col_fold = 1                       # = math.ceil(self.Sc / self.arr_col)
 
         # Generated matrices
         self.ifmap_op_mat_trans = np.zeros((1,1))
         self.ifmap_prefetch_matrix = np.zeros((1,1))
         self.filter_prefetch_matrix = np.zeros((1,1))
 
-        self.ifmap_demand_matrix = np.zeros((1,1))
-        self.ofmap_demand_matrix = np.zeros((1,1))
-        self.filter_demand_matrix = np.zeros((1,1))
+        self.ifmap_demand_matrix = np.zeros((1,1))      # Shape - (788840, 12)
+        self.ofmap_demand_matrix = np.zeros((1,1))      # Shape - (788840, 14)
+        self.filter_demand_matrix = np.zeros((1,1))     # Shape - (788840, 14)
 
         # Generated metrics
         self.ifmap_reads = 0
@@ -59,19 +59,23 @@ class systolic_compute_ws:
         self.filter_op_mat = filter_op_mat
         self.ofmap_op_mat = ofmap_op_mat
 
+        print("Shape of ifmap_op_matrix: ", self.ifmap_op_mat.shape)
+        print("Shape of filter_op_mat:   ", self.filter_op_mat.shape)
+        print("Shape of ofmap_op_mat:    ", self.ofmap_op_mat.shape)
+        
         ifmap_col = self.ifmap_op_mat.shape[1]
         filter_row= self.filter_op_mat.shape[0]
 
         assert ifmap_col == filter_row, "Dimension mismatch between operands"
+        
+        self.Sr = self.ifmap_op_mat.shape[1]    
+        self.Sc = self.filter_op_mat.shape[1]   
+        self.T = self.ifmap_op_mat.shape[0]  
+           
 
-        self.Sr = self.ifmap_op_mat.shape[1]
-        self.Sc = self.filter_op_mat.shape[1]
-        self.T = self.ifmap_op_mat.shape[0]
-
-        self.arr_row, self.arr_col = self.config.get_array_dims()
-
-        self.row_fold = math.ceil(self.Sr / self.arr_row)
-        self.col_fold = math.ceil(self.Sc / self.arr_col)
+        self.arr_row, self.arr_col = self.config.get_array_dims() # 12x14 PE
+        self.row_fold = math.ceil(self.Sr / self.arr_row) 
+        self.col_fold = math.ceil(self.Sc / self.arr_col) 
 
         self.params_set_flag = True
 
@@ -176,6 +180,8 @@ class systolic_compute_ws:
 
     #
     def create_ifmap_demand_mat(self):
+        
+        #print('DEBUG: create_ifmap_demand_mat()')
         assert self.params_set_flag, 'Parameters are not set'
 
         inter_fold_gap_prefix = self.arr_row
@@ -186,6 +192,14 @@ class systolic_compute_ws:
         inter_fold_gap_suffix_mat = np.ones((inter_fold_gap_suffix, self.arr_row)) * -1
 
         ifmap_demand_matrix_list = []
+        
+        print("Demand Matrix Calculation: fr (row_fold) -> ", self.row_fold)
+        print("Demand Matrix Calculation: fc (col_fold) -> ", self.col_fold)
+        
+        #print("This Fold Demand: ")
+        
+        count = 0
+        
         for fc in range(self.col_fold):
             for fr in range(self.row_fold):
                 col_start_id = fr * self.arr_row
@@ -211,12 +225,15 @@ class systolic_compute_ws:
                 # Add skew to the IFMAP demand matrix to reflect systolic pipeline fill
                 this_fold_demand = skew_matrix(this_fold_demand)
 
+                count = count + 1
+                #print(f"\t#{count} fold:\t{this_fold_demand.shape}")
                 ifmap_demand_matrix_list.append(this_fold_demand)
                 #if fr == 0 and fc == 0:
                 #    self.ifmap_demand_matrix = this_fold_demand
                 #else:
                 #    self.ifmap_demand_matrix = np.concatenate((self.ifmap_demand_matrix, this_fold_demand), axis=0)
         self.ifmap_demand_matrix = np.concatenate(ifmap_demand_matrix_list)
+        print("Shape of ifmap_demand_matrix: ", self.ifmap_demand_matrix.shape)
     # END of IFMAP demand generation
 
     #

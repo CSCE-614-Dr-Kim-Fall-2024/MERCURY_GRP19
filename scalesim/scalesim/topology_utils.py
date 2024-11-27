@@ -1,5 +1,6 @@
 import math
-
+import os
+import csv
 
 class topologies(object):
 
@@ -13,6 +14,8 @@ class topologies(object):
         self.topo_load_flag = False
         self.topo_calc_hyper_param_flag = False
         self.topo_calc_spatiotemp_params_flag = False
+        self.cache_mode = 0
+        self.cache_file_name = ""
 
     # reset topology parameters
     def reset(self):
@@ -24,6 +27,8 @@ class topologies(object):
         self.num_layers = 0
         self.topo_calc_hyper_param_flag = False
         self.layers_calculated_hyperparams = []
+        self.cache_mode = 0
+        self.cache_file_name = ""
 
     #
     def load_layer_params_from_list(self, layer_name, elems_list=[]):
@@ -42,6 +47,12 @@ class topologies(object):
         else:
             self.load_arrays_conv(topofile)
 
+    def load_cache_file(self, cache_filename=''):
+        if (cache_filename==''):
+            self.cache_mode = 0
+        else:
+            self.cache_mode = 1 
+            self.cache_file_name = cache_filename       
     #
     def load_arrays_gemm(self, topofile=''):
 
@@ -192,11 +203,56 @@ class topologies(object):
         self.topo_calc_hyperparams()
         self.num_layers += 1
 
+    def get_number_of_hits(self, layer_id=0):
+        csv_file = f"{self.cache_file_name}/hitmap-{(layer_id+1):03d}.csv"
+        print(csv_file)        
+        if not os.path.exists(csv_file):
+            print(f"Error: {csv_file} not found")
+            return 0
+
+        with open(csv_file, 'r') as f:
+            csv_reader = csv.reader(f)
+            lines = list(csv_reader)
+            
+            if len(lines) < 100:
+                print(f"Error: {csv_file} has fewer than 100 lines")
+                return 0
+            
+            last_line = lines[-1]
+            second_last_line = lines[-2]
+            
+            if len(last_line) < 7 or len(second_last_line) < 7:
+                print(f"Error: Lines in {csv_file} have fewer than 7 elements")
+                return 0
+            
+            try:
+                last_seventh = float(last_line[6])
+                second_last_seventh = float(second_last_line[6])
+                first_element = float(last_line[0])
+                second_element = float(last_line[1])
+                #number_of_hits = (last_seventh - second_last_seventh) / (first_element * second_element)
+                number_of_hits = int(math.floor((last_seventh - second_last_seventh) / (first_element * second_element)))
+                return number_of_hits
+            except ValueError:
+                print(f"Error: Could not convert values to float in {csv_file}")
+                return 0
+            
     # calculate hyper-parameters (ofmap dimensions, number of MACs, and window size of filter)
     def topo_calc_hyperparams(self, topofilename=""):
         if not self.topo_load_flag:
             self.load_arrays(topofilename)
         self.layers_calculated_hyperparams = []
+        
+        
+        if(self.cache_mode == 0):
+            print("Cache Mode is disabled. Use command with '-m' option to enable it!")
+        else:
+            print("Cache Mode is enabled. ")
+        
+        print("Initializing ...")   
+        current_layer = 0
+        
+        #cache_mode = int(input("Enable Cache Mode (Yes: 1 | No: 0):  "))
         for array in self.topo_arrays:
             ifmap_h = array[1]
             ifmap_w = array[2]
@@ -206,12 +262,35 @@ class topologies(object):
             num_filt = array[6]
             stride_h = array[7]
             stride_w = array[8]
-            ofmap_h = int(math.ceil((ifmap_h - filt_h + stride_h) / stride_h))
-            ofmap_w = int(math.ceil((ifmap_w - filt_w + stride_w) / stride_w))
+            
+            # Kartikeya: 
+            # When there is a HIT in the CACHE, the input feature will not be sent to the PE for calculation.
+            # Therefore the number of rows (height) in output feature map will change. On the other hand columns (ofmap_w) will remain unchanged!! 
+            
+            # default: when cache is not present, the number of hits = 0
+            number_of_hit = 0
+            
+            if(self.cache_mode == 1):
+                if((current_layer+1) < self.num_layers):
+                    number_of_hit = self.get_number_of_hits(current_layer) 
+                    print(f"\tLayer: {current_layer+1} \t Number of Hits: {number_of_hit}")
+                
+            eff_ifmap_h = ifmap_h - number_of_hit
+            eff_ifmap_w = ifmap_w
+            
+            # Accounting for the case when effective input feature map after reduction of hits < 0
+            if (eff_ifmap_h < filt_h):
+                eff_ifmap_h = filt_h
+            
+            ofmap_h = int(math.ceil((eff_ifmap_h - filt_h + stride_h) / stride_h))
+            ofmap_w = int(math.ceil((eff_ifmap_w - filt_w + stride_w) / stride_w))
+            
             num_mac = ofmap_h * ofmap_w * filt_h * filt_w * num_ch * num_filt
             window_size = filt_h * filt_w * num_ch
             entry = [ofmap_h, ofmap_w, num_mac, window_size]
             self.layers_calculated_hyperparams.append(entry)
+            
+            current_layer = current_layer + 1
         self.topo_calc_hyper_param_flag = True
 
     def calc_spatio_temporal_params(self, df='os', layer_id=0):

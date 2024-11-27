@@ -10,6 +10,7 @@ class scalesim:
                  verbose=True,
                  config='',
                  topology='',
+                 cache_file='',
                  input_type_gemm=False):
 
         # Data structures
@@ -19,6 +20,7 @@ class scalesim:
         # File paths
         self.config_file = ''
         self.topology_file = ''
+        self.cache_file = ''
 
         # Member objects
         #self.runner = r.run_nets()
@@ -31,12 +33,13 @@ class scalesim:
         self.run_done_flag = False
         self.logs_generated_flag = False
 
-        self.set_params(config_filename=config, topology_filename=topology)
+        self.set_params(config_filename=config, topology_filename=topology, cache_file=cache_file)
 
     #
     def set_params(self,
                    config_filename='',
-                   topology_filename='' ):
+                   topology_filename='', 
+                   cache_file=''):
         # First check if the user provided a valid topology file
         if not topology_filename == '':
             if not os.path.exists(topology_filename):
@@ -46,7 +49,8 @@ class scalesim:
                 exit()
             else:
                 self.topology_file = topology_filename
-
+        
+        
         if not os.path.exists(config_filename):
             print("ERROR: scalesim.scale.py: Config file not found") 
             print("Input file:" + config_filename)
@@ -56,6 +60,16 @@ class scalesim:
             self.config_file = config_filename
 
         # Parse config first
+        if not cache_file == '':
+            cache_file_path = os.path.join(cache_file, "hitmap-001.csv")    
+            if not os.path.exists(cache_file_path):
+                print("ERROR: scalesim.scale.py: Cache files not found")
+                print("The following file does not exist: " + cache_file_path)
+                print('Exiting')
+                exit()
+        else:    
+            self.cache_file = cache_file
+            
         self.config.read_conf_file(self.config_file)
 
         # Take the CLI topology over the one in config
@@ -67,6 +81,9 @@ class scalesim:
 
         # Parse the topology
         self.topo.load_arrays(topofile=self.topology_file, mnk_inputs=self.read_gemm_inputs)
+        
+        # Send the cache filename path
+        self.topo.load_cache_file(cache_filename=cache_file)
 
         #num_layers = self.topo.get_num_layers()
         #self.config.scale_memory_maps(num_layers=num_layers)

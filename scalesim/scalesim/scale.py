@@ -20,12 +20,17 @@ if __name__ == '__main__':
                         default="conv",
                         help="Type of input topology, gemm: MNK, conv: conv"
                         )
+    parser.add_argument('-m', metavar='Cache Folder Path', type = str,
+                        default="",
+                        help="Path to the Cache Results Directory"
+                        )
 
     args = parser.parse_args()
     topology = args.t
     config = args.c
     logpath = args.p
     inp_type = args.i
+    cache_file = args.m
 
     gemm_input = False
     if inp_type == 'gemm':
@@ -34,6 +39,7 @@ if __name__ == '__main__':
     s = scalesim(save_disk_space=True, verbose=True,
                  config=config,
                  topology=topology,
-                 input_type_gemm=gemm_input
+                 input_type_gemm=gemm_input,
+                 cache_file = cache_file
                  )
     s.run_scale(top_path=logpath)

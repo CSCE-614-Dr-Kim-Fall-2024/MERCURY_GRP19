@@ -153,6 +153,13 @@ class double_buffered_scratchpad:
         assert self.params_valid_flag, 'Memories not initialized yet'
 
         ofmap_lines = ofmap_demand_mat.shape[0]
+        
+        # KARTIKEYA: 
+        # The first value in shape represents number of cycles for that layer
+        # The second value represents which dimension (H or W) of PE array - MAC is relevant for the calculation  
+        print("ifmap_demand_mat", ifmap_demand_mat.shape)
+        print("filter_demand_mat", filter_demand_mat.shape)
+        print("ofmap_demand_mat", ofmap_demand_mat.shape)
 
         self.total_cycles = 0
         self.stall_cycles = 0
@@ -170,6 +177,7 @@ class double_buffered_scratchpad:
             cycle_arr = np.zeros((1,1)) + i + self.stall_cycles
 
             ifmap_demand_line = ifmap_demand_mat[i, :].reshape((1,ifmap_demand_mat.shape[1]))
+
             ifmap_cycle_out = self.ifmap_buf.service_reads(incoming_requests_arr_np=ifmap_demand_line,
                                                             incoming_cycles_arr=cycle_arr)
             ifmap_serviced_cycles += [ifmap_cycle_out[0]]

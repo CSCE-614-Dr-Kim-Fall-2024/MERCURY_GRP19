@@ -65,6 +65,14 @@ class operand_matrix(object):
         self.num_input_channels = self.topoutil.get_layer_num_channels(self.layer_id)
         self.num_filters = self.topoutil.get_layer_num_filters(self.layer_id)
         self.row_stride, self.col_stride = self.topoutil.get_layer_strides(self.layer_id)
+        
+        #print("IFMAP_Dimensions: ", self.topoutil.get_layer_ifmap_dims(self.layer_id))
+        #print("Filter Dimensions: ", self.topoutil.get_layer_filter_dims(self.layer_id))
+        #print("Output Dimensions: ", self.topoutil.get_layer_ofmap_dims(self.layer_id))
+        #print("Num Input Channels: ", self.topoutil.get_layer_num_channels(self.layer_id))
+        #print("Num Filters: ", self.topoutil.get_layer_num_filters(self.layer_id))
+        #print("Layer Strides: ", self.topoutil.get_layer_strides(self.layer_id))
+        
         # TODO: Marked for cleanup
         #self.row_stride = layer_hyper_param_arr[6]
         #if len(layer_hyper_param_arr) == 8:
@@ -138,26 +146,48 @@ class operand_matrix(object):
             print(message)
             return -1
 
+        print("Batch Size: ", self.batch_size)
+        
+        # Kartikeya: 
+        # This Output Feature Map per Filter is the main idea which we need to change to reflect 
+        # the input map hit rate as there will be fewer outputs in case of signature vector hit!!
+        print("Output Feature Map per Filter (ofmap_px_per_filt): ", self.ofmap_px_per_filt)
+        
+        
         row_indices = np.arange(self.batch_size * self.ofmap_px_per_filt)
         col_indices = np.arange(self.conv_window_size)
+        print("Shape of Row Indices: ", row_indices.shape)
+        print("Shape of Col Indices: ", col_indices.shape)
+        
         # Create 2D index arrays using meshgrid
         i, j = np.meshgrid(row_indices, col_indices, indexing='ij')
-
+        print("Shape of i and j: ", i.shape)
+        
         # Call calc_ifmap_elem_addr_numpy with 2D index arrays
         self.ifmap_addr_matrix = self.calc_ifmap_elem_addr(i, j)
+        print("Shape of ifmap_addr_matrix: ", self.ifmap_addr_matrix.shape)
         return 0
 
     # logic to translate ifmap into matrix fed into systolic array MACs
     def calc_ifmap_elem_addr(self, i, j):
-        offset = self.ifmap_offset
-        ifmap_rows = self.ifmap_rows
-        ifmap_cols = self.ifmap_cols
-        filter_col = self.filter_cols
-        r_stride = self.row_stride
-        c_stride = self.col_stride
-        Ew = self.ofmap_cols
-        channel = self.num_input_channels
+        offset = self.ifmap_offset      # 0
+        ifmap_rows = self.ifmap_rows    # 224
+        ifmap_cols = self.ifmap_cols    # 224
+        filter_col = self.filter_cols   # 68
+        r_stride = self.row_stride      # 2
+        c_stride = self.col_stride      # 2
+        Ew = self.ofmap_cols            # 79
+        channel = self.num_input_channels   # 3
 
+        #print("offset:", self.ifmap_offset)
+        #print("ifmap_rows:", self.ifmap_rows)
+        #print("ifmap_cols:", self.ifmap_cols)
+        #print("filter_cols:", self.filter_cols)
+        #print("row_stride:", self.row_stride)
+        #print("col_stride:", self.col_stride)
+        #print("ofmap_cols (Ew):", self.ofmap_cols)
+        #print("num_input_channels:", self.num_input_channels)
+        
         ofmap_row, ofmap_col = np.divmod(i, Ew)
         i_row, i_col = ofmap_row * r_stride, ofmap_col * c_stride
         window_addr = (i_row * ifmap_cols + i_col) * channel

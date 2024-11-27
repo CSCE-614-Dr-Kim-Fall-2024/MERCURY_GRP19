@@ -225,7 +225,7 @@ class systolic_compute_os:
         inter_fold_gap_suffix_mat = np.ones((inter_fold_gap_suffix, self.arr_row)) * -1
 
         # DEBUG section
-        #print('DEBUG: create_ifmap_demand_mat()')
+        # print('DEBUG: create_ifmap_demand_mat()')
         pbar = tqdm(total=self.col_fold * self.row_fold, disable=True)
 
         for fc in range(self.col_fold):
@@ -272,7 +272,7 @@ class systolic_compute_os:
         inter_fold_gap_suffix_mat = np.ones((inter_fold_gap_suffix, self.arr_col)) * -1
 
         # Debug messages
-        #print('DEBUG: create_filter_demand_mat()')
+        print('DEBUG: create_filter_demand_mat()')
         pbar = tqdm(total=self.col_fold * self.row_fold, disable=True)
 
         for fc in range(self.col_fold):
