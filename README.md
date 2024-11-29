@@ -1,13 +1,13 @@
 # CSCE 614 Fall 2024 Project: **Architectural Study of MERCURY: Accelerating DNN Training by Exploiting Input Similarity**
 
 ## Group Members
-Karthikeyan Renga Rajan (535004635)
+- Karthikeyan Renga Rajan (535004635)
 
-Kartikeya Aryan Agarwal (236002811)
+- Kartikeya Aryan Agarwal (236002811)
 
-Neel Shah (534002778)
+- Neel Shah (534002778)
 
-Anirudh Suresh Bharadwaj (535005834)
+- Anirudh Suresh Bharadwaj (535005834)
 
 ## Project Description
 This project implements and evaluates the MERCURY technique, which accelerates deep neural network (DNN) training by exploiting input similarity. We focus only on forward propagation and convolutional layers, using PyTorch for caching implementation and SCALE-Sim for hardware simulation of computation cycles. Our study covers AlexNet, ResNet101, and GoogleNet models, simulated on an Eyeriss-like hardware configuration with a weight-stationary dataflow.
@@ -70,6 +70,26 @@ By analyzing the **hitmap file**, you can assess how effectively MERCURY's input
 
 ## Running the Modified SCALE-Sim Implementation
 
+### SCALE-Sim Inputs
+
+SCALE-Sim uses two input files to run, a configuration file and a topology file, as follows: 
+
+#### Configuration file
+
+The configuration file is used to specify the architecture and run parameters for the simulations.
+The following shows a sample config file:
+
+![sample config](https://github.com/scalesim-project/scale-sim-v2/blob/main/documentation/resources/config-file-example.png "sample config")
+
+The config file has three sections. The "*general*" section specifies the run name, which is user specific. The "*architecture_presets*" section describes the parameter of the systolic array hardware to simulate.
+The "*run_preset*" section specifies if the simulator should run with user specified bandwidth, or should it calculate the optimal bandwidth for stall free execution.
+
+#### Topology file
+
+The topology file is a *CSV* file which decribes the layers of the workload topology. The layers are typically described as convolution layer parameters as shown in the example below.
+
+![sample topo](https://github.com/scalesim-project/scale-sim-v2/blob/main/documentation/resources/topo-file-example.png "sample topo")
+
 Below are the steps/instructions for running the modified SCALE-Sim implementation designed for accounting the reduced computations due the MERCURY caching technique. The implementation introduces functionality to integrate the hitmap data generated from our PyTorch implementation into SCALE-Sim, allowing us to skip redundant computations.
 
 ### Step 1: Navigate to the `scalesim` Directory and Install it
@@ -81,9 +101,9 @@ cd MERCURY_GRP19/scalesim/
 pip install -e .
 ```
 
-### Step 2: Enter the Main SCALE-Sim Directory
+### Step 2: Enter the Main `scalesim` Directory
 
-Navigate to the main 'scalesim' directory by running the following command within the directory 'MERCURY_GRP19/scalesim/': 
+Navigate to the main 'scalesim' directory by running the following command within the directory `MERCURY_GRP19/scalesim/`: 
 
 ```bash
 cd scalesim/
@@ -97,12 +117,40 @@ Execute the SCALE-Sim script with the following command:
 python3 scale.py -c <path_to_config_file> -t <path_to_topology_file> -p <path_to_output_log_dir> -m <path_to_results_cached_directory>
 ```
 
+Replace the placeholders with appropriate file paths:
+- <path_to_config_file>: Path to the configuration file (e.g., `MERCURY_GRP19/scalesim/configs/mercury.cfg`)
+- <path_to_topology_file>: Path to the topology file (e.g., `MERCURY_GRP19/scalesim/topologies/mercury/{model}.csv`)
+- <path_to_output_log_dir>: Directory where output you want the logs to be stored (e.g., `MERCURY_GRP19/scalesim/output/Baseline (or SigVec or Cache)/{model}/`)
+- <path_to_results_cached_directory>: Path to the results_cached directory (e.g., `MERCURY_GRP19/results/results_cached2/out_{model}`)
+
+> **Note**: The **`-m` flag and the corresponding path** is only required for running simulations with caching, and use **{model}_SigVec.csv** topology files to determine signature vector computation cycles on the same hardware configuration (mercury.cfg). Also, replace {model} with any of the AlexNet, Googlenet or ResNet101.
+
+### Step 4: Observe the Output
+
+After running the script, navigate to the output directory to view the results:
+
+```bash
+cd ..
+cd output/Baseline/{model}/output.log
+```
+
+Similarly, navigate to any of the Baseline, SigVec, or Cache directory inside the output directory to see the results and logs. These contain computation cycles among other metrics for baseline model, for signature vector calculation on the same hardware configuration (Eyeriss-like), or for cached model inferencing, respectively.
+
+### The Summary Logs
+
+The simulator also generates read write traces and summary logs at `MERCURY_GRP19/scalesim/output/Baseline/{model}/mercury/`. There are three summary logs:
+
+- **COMPUTE_REPORT.csv**: Layer wise logs for **compute cycles**, stalls, utilization percentages etc.
+
+- **BANDWIDTH_REPORT.csv**: Layer wise information about average and maximum bandwidths for each operand when accessing SRAM and DRAM
+
+- **DETAILED_ACCESS_REPORT.csv**: Layer wise information about number of accesses and access cycles for each operand for SRAM and DRAM
 
 ## References
-Janfaza, V., Weston, K., Razavi, M., Mandal, S., Mahmud, F., Hilty, A. and Muzahid, A., 2023, February. Mercury: Accelerating dnn training by exploiting input similarity. In 2023 IEEE International Symposium on High-Performance Computer Architecture (HPCA) (pp. 638-650). IEEE.
+- Janfaza, V., Weston, K., Razavi, M., Mandal, S., Mahmud, F., Hilty, A. and Muzahid, A., 2023, February. Mercury: Accelerating dnn training by exploiting input similarity. In 2023 IEEE International Symposium on High-Performance Computer Architecture (HPCA) (pp. 638-650). IEEE.
 
-Paszke, A. et al., 2019. PyTorch: An Imperative Style, High-Performance Deep Learning Library. In Advances in Neural Information Processing Systems 32. Curran Associates, Inc., pp. 8024–8035.
+- Paszke, A. et al., 2019. PyTorch: An Imperative Style, High-Performance Deep Learning Library. In Advances in Neural Information Processing Systems 32. Curran Associates, Inc., pp. 8024–8035.
 
-Samajdar, A., Joseph, J.M., Zhu, Y., Whatmough, P., Mattina, M. and Krishna, T., 2020, August. A systematic methodology for characterizing scalability of dnn accelerators using scale-sim. In 2020 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS) (pp. 58-68). IEEE.
+- Samajdar, A., Joseph, J.M., Zhu, Y., Whatmough, P., Mattina, M. and Krishna, T., 2020, August. A systematic methodology for characterizing scalability of dnn accelerators using scale-sim. In 2020 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS) (pp. 58-68). IEEE.
 
-Samajdar, A., Zhu, Y., Whatmough, P., Mattina, M. and Krishna, T., 2018. Scale-sim: Systolic cnn accelerator simulator. arXiv preprint arXiv:1811.02883.
+- Samajdar, A., Zhu, Y., Whatmough, P., Mattina, M. and Krishna, T., 2018. Scale-sim: Systolic cnn accelerator simulator. arXiv preprint arXiv:1811.02883.
